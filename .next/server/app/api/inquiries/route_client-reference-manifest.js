@@ -1,0 +1,1 @@
+globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/api/inquiries/route"]={"moduleLoading":{"prefix":"/diamondcapitaloasis/_next/"},"ssrModuleMapping":{},"edgeSSRModuleMapping":{},"clientModules":{},"entryCSSFiles":{"/Users/firosvk/Desktop/Node Web/dco-app/app/api/inquiries/route":[]},"rscModuleMapping":{},"edgeRscModuleMapping":{}};

@@ -65,6 +65,10 @@ let startupError = null;
 
 const server = createServer((req, res) => {
   if (req.url && (req.url.endsWith("/__status") || req.url === "/__status")) {
+    let buildId = "unknown";
+    try {
+      buildId = fs.readFileSync(path.join(process.cwd(), ".next", "BUILD_ID"), "utf8").trim();
+    } catch {}
     res.writeHead(200, { "Content-Type": "application/json" });
     res.end(
       JSON.stringify(
@@ -72,6 +76,8 @@ const server = createServer((req, res) => {
           status: "online",
           version: "dco-app-v2-production",
           timestamp: new Date().toISOString(),
+          cwd: process.cwd(),
+          buildId,
           basePath,
           node: process.version,
           isReady,

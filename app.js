@@ -42,28 +42,51 @@ if (typeof process.loadEnvFile === "function") {
   }
 }
 
-// Ensure .next/server/preview-props.json exists for Next.js 16.4+ runtimes
+const defaultPreview = {
+  previewModeId: "96ce9ee8b87cd46d9b263b7faeb842d2",
+  previewModeSigningKey: "e078bf5f8087ef793e2a2e8156db2044d037483465da526bb76f4b42b1d29ef2",
+  previewModeEncryptionKey: "521cea14542309f6e0f61ba9bff4efe69d5f58c82bbbba53b5238d0f79a61edc",
+};
+
+// Ensure .next/server/preview-props.json exists and has valid previewModeId
 try {
   const previewPropsPath = path.join(process.cwd(), ".next", "server", "preview-props.json");
-  if (!fs.existsSync(previewPropsPath)) {
-    let preview = {
-      previewModeId: "d2b17d38e11ea143735d84d1113bcfa2",
-      previewModeSigningKey: "aaeeb54893fefb590f94e29d8b7b10c0afcb48608abc0efbde41a010345dc3ac",
-      previewModeEncryptionKey: "75395ec3ea58c31d38d5d77d7618b46c57168031bd09932f03e89fcf456db419",
-    };
-    const prerenderPath = path.join(process.cwd(), ".next", "prerender-manifest.json");
-    if (fs.existsSync(prerenderPath)) {
-      try {
-        const pm = JSON.parse(fs.readFileSync(prerenderPath, "utf8"));
-        if (pm.preview) preview = pm.preview;
-      } catch {}
-    }
+  let valid = false;
+  if (fs.existsSync(previewPropsPath)) {
+    try {
+      const data = JSON.parse(fs.readFileSync(previewPropsPath, "utf8"));
+      if (data && data.previewModeId) valid = true;
+    } catch {}
+  }
+  if (!valid) {
     fs.mkdirSync(path.dirname(previewPropsPath), { recursive: true });
-    fs.writeFileSync(previewPropsPath, JSON.stringify(preview, null, 2));
-    log("Created missing preview-props.json manifest");
+    fs.writeFileSync(previewPropsPath, JSON.stringify(defaultPreview, null, 2));
+    log("Wrote valid preview-props.json");
   }
 } catch (e) {
-  log(`Failed to create preview-props.json: ${e}`);
+  log(`Failed to write preview-props.json: ${e}`);
+}
+
+// Ensure .next/prerender-manifest.json always has valid preview object
+try {
+  const prerenderPath = path.join(process.cwd(), ".next", "prerender-manifest.json");
+  let pm = {};
+  if (fs.existsSync(prerenderPath)) {
+    try {
+      pm = JSON.parse(fs.readFileSync(prerenderPath, "utf8"));
+    } catch {}
+  }
+  if (!pm.preview || !pm.preview.previewModeId) {
+    pm.version = pm.version || 4;
+    pm.routes = pm.routes || {};
+    pm.dynamicRoutes = pm.dynamicRoutes || {};
+    pm.notFoundRoutes = pm.notFoundRoutes || [];
+    pm.preview = defaultPreview;
+    fs.writeFileSync(prerenderPath, JSON.stringify(pm, null, 2));
+    log("Injected valid preview into prerender-manifest.json");
+  }
+} catch (e) {
+  log(`Failed to fix prerender-manifest.json: ${e}`);
 }
 
 // Auto-clean any legacy /diamondcapitaloasis redirects from compiled Next.js manifests on disk

@@ -70,7 +70,7 @@ export function stripHtmlExtension(value: string) {
 
 export function siteBaseUrl(
   settings: SiteSettingsRecord,
-  fallback = "https://demo.digitallinksbpo.com/diamondcapitaloasis",
+  fallback = "https://hygienelinkstrading.com",
 ) {
   const candidate = settings.site_url?.trim() || fallback;
   try {
@@ -90,7 +90,7 @@ export function absoluteUrl(
 ) {
   const base = siteBaseUrl(settings, fallback);
   const basePathPrefix = (
-    process.env.NEXT_PUBLIC_BASE_PATH || "/diamondcapitaloasis"
+    process.env.NEXT_PUBLIC_BASE_PATH ?? ""
   ).replace(/^\/|\/$/g, "");
   let cleanPath = (path || "/").trim();
   if (basePathPrefix && !cleanPath.startsWith(`/${basePathPrefix}`)) {

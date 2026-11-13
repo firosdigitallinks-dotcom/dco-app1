@@ -46,6 +46,42 @@ try {
   log(`Failed to create preview-props.json: ${e}`);
 }
 
+// Auto-clean any legacy /diamondcapitaloasis redirects from compiled Next.js manifests on disk
+try {
+  const routesManifestPath = path.join(process.cwd(), ".next", "routes-manifest.json");
+  if (fs.existsSync(routesManifestPath)) {
+    const raw = fs.readFileSync(routesManifestPath, "utf8");
+    if (raw.includes("diamondcapitaloasis")) {
+      const manifest = JSON.parse(raw);
+      manifest.basePath = "";
+      if (Array.isArray(manifest.redirects)) {
+        manifest.redirects = manifest.redirects.filter(
+          (r) =>
+            !r.destination?.includes("diamondcapitaloasis") &&
+            !r.source?.includes("diamondcapitaloasis"),
+        );
+      }
+      fs.writeFileSync(routesManifestPath, JSON.stringify(manifest, null, 2));
+      log("Auto-cleaned legacy /diamondcapitaloasis redirects from routes-manifest.json");
+    }
+  }
+
+  const reqFilesPath = path.join(process.cwd(), ".next", "required-server-files.json");
+  if (fs.existsSync(reqFilesPath)) {
+    const raw = fs.readFileSync(reqFilesPath, "utf8");
+    if (raw.includes("diamondcapitaloasis")) {
+      const parsed = JSON.parse(raw);
+      if (parsed.config) {
+        parsed.config.basePath = "";
+      }
+      fs.writeFileSync(reqFilesPath, JSON.stringify(parsed, null, 2));
+      log("Auto-cleaned legacy basePath from required-server-files.json");
+    }
+  }
+} catch (e) {
+  log(`Failed to auto-clean manifests: ${e}`);
+}
+
 const rawPort = process.env.PORT;
 const isNumericPort = rawPort && !isNaN(Number(rawPort));
 const port = isNumericPort ? Number(rawPort) : 3000;
@@ -69,6 +105,13 @@ const server = createServer((req, res) => {
     try {
       buildId = fs.readFileSync(path.join(process.cwd(), ".next", "BUILD_ID"), "utf8").trim();
     } catch {}
+    let recentLog = "";
+    try {
+      if (fs.existsSync("debug.log")) {
+        const lines = fs.readFileSync("debug.log", "utf8").trim().split("\n");
+        recentLog = lines.slice(-20).join("\n");
+      }
+    } catch {}
     res.writeHead(200, { "Content-Type": "application/json" });
     res.end(
       JSON.stringify(
@@ -82,6 +125,7 @@ const server = createServer((req, res) => {
           node: process.version,
           isReady,
           startupError: startupError ? startupError.message : null,
+          recentLog,
         },
         null,
         2,
@@ -109,11 +153,37 @@ const server = createServer((req, res) => {
     return;
   }
 
+  // If someone requests the old legacy /diamondcapitaloasis subpath, redirect them cleanly to root
+  if (req.url && req.url.startsWith("/diamondcapitaloasis")) {
+    const target = req.url.replace(/^\/diamondcapitaloasis/, "") || "/";
+    res.writeHead(301, { Location: target });
+    res.end();
+    return;
+  }
+
   if (basePath && req.url && !req.url.startsWith(basePath)) {
     req.url = `${basePath}${req.url === "/" ? "" : req.url}`;
   }
 
-  handle(req, res);
+  try {
+    handle(req, res).catch((err) => {
+      log(`Handler error on ${req.url}: ${err?.stack || err}`);
+      if (!res.headersSent) {
+        res.writeHead(500, { "Content-Type": "text/html; charset=utf-8" });
+        res.end(
+          `<!DOCTYPE html><html><body style="font-family:sans-serif;padding:30px"><h2>Page Rendering Error</h2><p>URL: ${req.url}</p><pre style="background:#f4f4f4;padding:15px;border-radius:5px;overflow:auto">${err?.stack || err}</pre></body></html>`,
+        );
+      }
+    });
+  } catch (err) {
+    log(`Sync handler error: ${err?.stack || err}`);
+    if (!res.headersSent) {
+      res.writeHead(500, { "Content-Type": "text/html; charset=utf-8" });
+      res.end(
+        `<!DOCTYPE html><html><body style="font-family:sans-serif;padding:30px"><h2>Server Error</h2><pre>${err?.stack || err}</pre></body></html>`,
+      );
+    }
+  }
 });
 
 if (typeof globalThis.PhusionPassenger !== "undefined") {

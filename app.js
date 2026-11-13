@@ -9,6 +9,26 @@ function log(msg) {
   } catch {}
 }
 
+const originalConsoleError = console.error;
+console.error = function (...args) {
+  log(`[CONSOLE_ERROR] ${args.map((a) => (a && a.stack ? a.stack : typeof a === "object" ? JSON.stringify(a) : String(a))).join(" ")}`);
+  originalConsoleError.apply(console, args);
+};
+
+const originalConsoleWarn = console.warn;
+console.warn = function (...args) {
+  log(`[CONSOLE_WARN] ${args.map((a) => (a && a.stack ? a.stack : typeof a === "object" ? JSON.stringify(a) : String(a))).join(" ")}`);
+  originalConsoleWarn.apply(console, args);
+};
+
+process.on("uncaughtException", (err) => {
+  log(`[UNCAUGHT_EXCEPTION] ${err?.stack || err}`);
+});
+
+process.on("unhandledRejection", (err) => {
+  log(`[UNHANDLED_REJECTION] ${err?.stack || err}`);
+});
+
 log("app.js booting...");
 
 // Automatically load production environment variables if present
@@ -100,6 +120,13 @@ let isReady = false;
 let startupError = null;
 
 const server = createServer((req, res) => {
+  const origWriteHead = res.writeHead;
+  res.writeHead = function (code, ...rest) {
+    if (code >= 400) {
+      log(`[HTTP_${code}] ${req.method} ${req.url}`);
+    }
+    return origWriteHead.call(this, code, ...rest);
+  };
   if (req.url && (req.url.endsWith("/__status") || req.url === "/__status")) {
     let buildId = "unknown";
     try {

@@ -25,7 +25,7 @@
   "/faq.html/page": "/faq.html",
   "/category/[slug]/page": "/category/[slug]",
   "/index.html/page": "/index.html",
-  "/page": "/",
   "/vision-mission.html/page": "/vision-mission.html",
+  "/page": "/",
   "/product/[slug]/page": "/product/[slug]"
 }

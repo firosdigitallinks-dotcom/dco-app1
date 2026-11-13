@@ -1,7 +1,10 @@
 import { createServer } from "node:http";
 import fs from "node:fs";
 import path from "node:path";
+import { createRequire } from "node:module";
 import next from "next";
+
+const require_ = createRequire(import.meta.url);
 
 function log(msg) {
   try {
@@ -87,6 +90,31 @@ try {
   }
 } catch (e) {
   log(`Failed to fix prerender-manifest.json: ${e}`);
+}
+
+// Self-heal Next.js 16.4.x runtime app-page.runtime.prod.js if present to ensure previewProps is never undefined
+try {
+  const nextRuntimePath = path.join(
+    path.dirname(require_.resolve("next/package.json")),
+    "dist",
+    "compiled",
+    "next-server",
+    "app-page.runtime.prod.js",
+  );
+  if (fs.existsSync(nextRuntimePath)) {
+    let content = fs.readFileSync(nextRuntimePath, "utf8");
+    let changed = false;
+    if (content.includes("this.previewProps=o,") && !content.includes("this.previewProps=o||")) {
+      content = content.replace("this.previewProps=o,", `this.previewProps=o||${JSON.stringify(defaultPreview)},`);
+      changed = true;
+    }
+    if (changed) {
+      fs.writeFileSync(nextRuntimePath, content);
+      log("Patched next-server app-page.runtime.prod.js with default previewProps fallback");
+    }
+  }
+} catch (e) {
+  log(`Note on runtime patch: ${e?.message || e}`);
 }
 
 // Auto-clean any legacy /diamondcapitaloasis redirects from compiled Next.js manifests on disk

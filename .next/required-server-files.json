@@ -2,7 +2,7 @@
   "version": 1,
   "config": {
     "env": {
-      "NEXT_PUBLIC_BASE_PATH": "/diamondcapitaloasis"
+      "NEXT_PUBLIC_BASE_PATH": ""
     },
     "webpack": null,
     "typescript": {
@@ -11,7 +11,7 @@
     "typedRoutes": false,
     "distDir": ".next",
     "cleanDistDir": true,
-    "assetPrefix": "/diamondcapitaloasis",
+    "assetPrefix": "",
     "cacheMaxMemorySize": 52428800,
     "configOrigin": "next.config.ts",
     "useFileSystemPublicRoutes": true,
@@ -45,7 +45,7 @@
         256,
         384
       ],
-      "path": "/diamondcapitaloasis/_next/image",
+      "path": "/_next/image",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -80,7 +80,7 @@
       "maxInactiveAge": 60000,
       "pagesBufferLength": 5
     },
-    "basePath": "/diamondcapitaloasis",
+    "basePath": "",
     "sassOptions": {},
     "trailingSlash": false,
     "i18n": null,
@@ -466,12 +466,6 @@
       "fallback": []
     },
     "_originalRedirects": [
-      {
-        "source": "/",
-        "destination": "/diamondcapitaloasis",
-        "basePath": false,
-        "permanent": false
-      },
       {
         "source": "/baygon-details.html",
         "destination": "/product/baygon.html",

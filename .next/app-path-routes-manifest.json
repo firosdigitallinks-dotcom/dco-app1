@@ -26,6 +26,6 @@
   "/faq.html/page": "/faq.html",
   "/index.html/page": "/index.html",
   "/page": "/",
-  "/product/[slug]/page": "/product/[slug]",
-  "/vision-mission.html/page": "/vision-mission.html"
+  "/vision-mission.html/page": "/vision-mission.html",
+  "/product/[slug]/page": "/product/[slug]"
 }

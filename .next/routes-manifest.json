@@ -3,17 +3,8 @@
   "pages404": true,
   "appType": "app",
   "caseSensitive": false,
-  "basePath": "/diamondcapitaloasis",
+  "basePath": "",
   "redirects": [
-    {
-      "source": "/diamondcapitaloasis/",
-      "destination": "/diamondcapitaloasis",
-      "basePath": false,
-      "internal": true,
-      "priority": true,
-      "statusCode": 308,
-      "regex": "^/diamondcapitaloasis/$"
-    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
@@ -23,526 +14,519 @@
       "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
     },
     {
-      "source": "/",
-      "destination": "/diamondcapitaloasis",
-      "basePath": false,
-      "statusCode": 307,
-      "regex": "^(?!/diamondcapitaloasis/_next)/(?:/)?$"
-    },
-    {
-      "source": "/diamondcapitaloasis/baygon-details.html",
-      "destination": "/diamondcapitaloasis/product/baygon.html",
+      "source": "/baygon-details.html",
+      "destination": "/product/baygon.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/baygon-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/baygon-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/clean-glass-cloth-30-cm-pack-of-5-pieces-details.html",
-      "destination": "/diamondcapitaloasis/product/clean-glass-cloth-30-cm-pack-of-5-pieces.html",
+      "source": "/clean-glass-cloth-30-cm-pack-of-5-pieces-details.html",
+      "destination": "/product/clean-glass-cloth-30-cm-pack-of-5-pieces.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/clean-glass-cloth-30-cm-pack-of-5-pieces-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/clean-glass-cloth-30-cm-pack-of-5-pieces-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/dish-wash-liquidregular-details.html",
-      "destination": "/diamondcapitaloasis/product/dish-wash-liquidregular.html",
+      "source": "/dish-wash-liquidregular-details.html",
+      "destination": "/product/dish-wash-liquidregular.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/dish-wash-liquidregular-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/dish-wash-liquidregular-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/double-bucket-trolley-nick-50-l-details.html",
-      "destination": "/diamondcapitaloasis/product/double-bucket-trolley-nick-50-l.html",
+      "source": "/double-bucket-trolley-nick-50-l-details.html",
+      "destination": "/product/double-bucket-trolley-nick-50-l.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/double-bucket-trolley-nick-50-l-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/double-bucket-trolley-nick-50-l-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/feminine-sanitary-bins-details.html",
-      "destination": "/diamondcapitaloasis/product/feminine-sanitary-bins.html",
+      "source": "/feminine-sanitary-bins-details.html",
+      "destination": "/product/feminine-sanitary-bins.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/feminine-sanitary-bins-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/feminine-sanitary-bins-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/furniture-polish-details.html",
-      "destination": "/diamondcapitaloasis/product/furniture-polish.html",
+      "source": "/furniture-polish-details.html",
+      "destination": "/product/furniture-polish.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/furniture-polish-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/furniture-polish-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/furniture-polish-uae-details.html",
-      "destination": "/diamondcapitaloasis/product/furniture-polish.html",
+      "source": "/furniture-polish-uae-details.html",
+      "destination": "/product/furniture-polish.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/furniture-polish-uae-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/furniture-polish-uae-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/hygiene-links-uv-protected-cable-ties-details.html",
-      "destination": "/diamondcapitaloasis/product/hygiene-links-uv-protected-cable-ties.html",
+      "source": "/hygiene-links-uv-protected-cable-ties-details.html",
+      "destination": "/product/hygiene-links-uv-protected-cable-ties.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/hygiene-links-uv-protected-cable-ties-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/hygiene-links-uv-protected-cable-ties-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/products/brooms-and-mops-uae.html",
-      "destination": "/diamondcapitaloasis/products/brooms-and-mops-oman",
+      "source": "/products/brooms-and-mops-uae.html",
+      "destination": "/products/brooms-and-mops-oman",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/products/brooms-and-mops-uae\\.html(?:/)?$"
+      "regex": "^(?!/_next)/products/brooms-and-mops-uae\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/products/detergent-disinfectants-oman",
-      "destination": "/diamondcapitaloasis/products/detergent-disinfectants-uae.html",
+      "source": "/products/detergent-disinfectants-oman",
+      "destination": "/products/detergent-disinfectants-uae.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/products/detergent-disinfectants-oman(?:/)?$"
+      "regex": "^(?!/_next)/products/detergent-disinfectants-oman(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/products/garbage-bins-oman.html",
-      "destination": "/diamondcapitaloasis/products/garbage-bins.html",
+      "source": "/products/garbage-bins-oman.html",
+      "destination": "/products/garbage-bins.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/products/garbage-bins-oman\\.html(?:/)?$"
+      "regex": "^(?!/_next)/products/garbage-bins-oman\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/products/garbage-bins-uae",
-      "destination": "/diamondcapitaloasis/products/garbage-bins.html",
+      "source": "/products/garbage-bins-uae",
+      "destination": "/products/garbage-bins.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/products/garbage-bins-uae(?:/)?$"
+      "regex": "^(?!/_next)/products/garbage-bins-uae(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/products/hand-sanitizer-oman.html",
-      "destination": "/diamondcapitaloasis/products/hand-sanitizer.html",
+      "source": "/products/hand-sanitizer-oman.html",
+      "destination": "/products/hand-sanitizer.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/products/hand-sanitizer-oman\\.html(?:/)?$"
+      "regex": "^(?!/_next)/products/hand-sanitizer-oman\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/products/mop-buckets-trolley-oman",
-      "destination": "/diamondcapitaloasis/products/mop-buckets-trolley-uae",
+      "source": "/products/mop-buckets-trolley-oman",
+      "destination": "/products/mop-buckets-trolley-uae",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/products/mop-buckets-trolley-oman(?:/)?$"
+      "regex": "^(?!/_next)/products/mop-buckets-trolley-oman(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/products/soap-dispensers-oman.html",
-      "destination": "/diamondcapitaloasis/products/soap-dispensers-uae",
+      "source": "/products/soap-dispensers-oman.html",
+      "destination": "/products/soap-dispensers-uae",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/products/soap-dispensers-oman\\.html(?:/)?$"
+      "regex": "^(?!/_next)/products/soap-dispensers-oman\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/products/tissue-dispensers.html",
-      "destination": "/diamondcapitaloasis/products/tissue-dispensers-uae",
+      "source": "/products/tissue-dispensers.html",
+      "destination": "/products/tissue-dispensers-uae",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/products/tissue-dispensers\\.html(?:/)?$"
+      "regex": "^(?!/_next)/products/tissue-dispensers\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/products/washroom-products-oman.html",
-      "destination": "/diamondcapitaloasis/products/washroom-products.html",
+      "source": "/products/washroom-products-oman.html",
+      "destination": "/products/washroom-products.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/products/washroom-products-oman\\.html(?:/)?$"
+      "regex": "^(?!/_next)/products/washroom-products-oman\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/safety-helmet-details.html",
-      "destination": "/diamondcapitaloasis/product/safety-helmet.html",
+      "source": "/safety-helmet-details.html",
+      "destination": "/product/safety-helmet.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/safety-helmet-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/safety-helmet-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/safety-jacket-details.html",
-      "destination": "/diamondcapitaloasis/product/safety-jacket.html",
+      "source": "/safety-jacket-details.html",
+      "destination": "/product/safety-jacket.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/safety-jacket-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/safety-jacket-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/safety-shoes-details.html",
-      "destination": "/diamondcapitaloasis/product/safety-shoes.html",
+      "source": "/safety-shoes-details.html",
+      "destination": "/product/safety-shoes.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/safety-shoes-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/safety-shoes-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/single-bucket-trolley-partition-action-pro-30l-red-details.html",
-      "destination": "/diamondcapitaloasis/product/single-bucket-trolley-partition-action-pro-30l-red.html",
+      "source": "/single-bucket-trolley-partition-action-pro-30l-red-details.html",
+      "destination": "/product/single-bucket-trolley-partition-action-pro-30l-red.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/single-bucket-trolley-partition-action-pro-30l-red-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/single-bucket-trolley-partition-action-pro-30l-red-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/swimming-pool-cleaning-chemicals-details.html",
-      "destination": "/diamondcapitaloasis/product/swimming-pool-cleaning-chemicals.html",
+      "source": "/swimming-pool-cleaning-chemicals-details.html",
+      "destination": "/product/swimming-pool-cleaning-chemicals.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/swimming-pool-cleaning-chemicals-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/swimming-pool-cleaning-chemicals-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/toilet-roll-details.html",
-      "destination": "/diamondcapitaloasis/product/toilet-roll.html",
+      "source": "/toilet-roll-details.html",
+      "destination": "/product/toilet-roll.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/toilet-roll-details\\.html(?:/)?$"
+      "regex": "^(?!/_next)/toilet-roll-details\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/air-fresheners.html",
-      "destination": "/diamondcapitaloasis/products/air-fresheners-oman.html",
+      "source": "/category/air-fresheners.html",
+      "destination": "/products/air-fresheners-oman.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/air-fresheners\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/air-fresheners\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/air-fresheners",
-      "destination": "/diamondcapitaloasis/products/air-fresheners-oman.html",
+      "source": "/category/air-fresheners",
+      "destination": "/products/air-fresheners-oman.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/air-fresheners(?:/)?$"
+      "regex": "^(?!/_next)/category/air-fresheners(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/all-purpose-cleaner.html",
-      "destination": "/diamondcapitaloasis/products/all-purpose-cleaner.html",
+      "source": "/category/all-purpose-cleaner.html",
+      "destination": "/products/all-purpose-cleaner.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/all-purpose-cleaner\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/all-purpose-cleaner\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/all-purpose-cleaner",
-      "destination": "/diamondcapitaloasis/products/all-purpose-cleaner.html",
+      "source": "/category/all-purpose-cleaner",
+      "destination": "/products/all-purpose-cleaner.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/all-purpose-cleaner(?:/)?$"
+      "regex": "^(?!/_next)/category/all-purpose-cleaner(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/branded-cleaning-chemicals.html",
-      "destination": "/diamondcapitaloasis/products/branded-cleaning-chemicals.html",
+      "source": "/category/branded-cleaning-chemicals.html",
+      "destination": "/products/branded-cleaning-chemicals.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/branded-cleaning-chemicals\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/branded-cleaning-chemicals\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/branded-cleaning-chemicals",
-      "destination": "/diamondcapitaloasis/products/branded-cleaning-chemicals.html",
+      "source": "/category/branded-cleaning-chemicals",
+      "destination": "/products/branded-cleaning-chemicals.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/branded-cleaning-chemicals(?:/)?$"
+      "regex": "^(?!/_next)/category/branded-cleaning-chemicals(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/brooms-and-mops.html",
-      "destination": "/diamondcapitaloasis/products/brooms-and-mops-oman",
+      "source": "/category/brooms-and-mops.html",
+      "destination": "/products/brooms-and-mops-oman",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/brooms-and-mops\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/brooms-and-mops\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/brooms-and-mops",
-      "destination": "/diamondcapitaloasis/products/brooms-and-mops-oman",
+      "source": "/category/brooms-and-mops",
+      "destination": "/products/brooms-and-mops-oman",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/brooms-and-mops(?:/)?$"
+      "regex": "^(?!/_next)/category/brooms-and-mops(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/car-care-products.html",
-      "destination": "/diamondcapitaloasis/products/car-care-products.html",
+      "source": "/category/car-care-products.html",
+      "destination": "/products/car-care-products.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/car-care-products\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/car-care-products\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/car-care-products",
-      "destination": "/diamondcapitaloasis/products/car-care-products.html",
+      "source": "/category/car-care-products",
+      "destination": "/products/car-care-products.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/car-care-products(?:/)?$"
+      "regex": "^(?!/_next)/category/car-care-products(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/detergent-disinfectants.html",
-      "destination": "/diamondcapitaloasis/products/detergent-disinfectants-uae.html",
+      "source": "/category/detergent-disinfectants.html",
+      "destination": "/products/detergent-disinfectants-uae.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/detergent-disinfectants\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/detergent-disinfectants\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/detergent-disinfectants",
-      "destination": "/diamondcapitaloasis/products/detergent-disinfectants-uae.html",
+      "source": "/category/detergent-disinfectants",
+      "destination": "/products/detergent-disinfectants-uae.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/detergent-disinfectants(?:/)?$"
+      "regex": "^(?!/_next)/category/detergent-disinfectants(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/dish-wash.html",
-      "destination": "/diamondcapitaloasis/products/dish-wash.html",
+      "source": "/category/dish-wash.html",
+      "destination": "/products/dish-wash.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/dish-wash\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/dish-wash\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/dish-wash",
-      "destination": "/diamondcapitaloasis/products/dish-wash.html",
+      "source": "/category/dish-wash",
+      "destination": "/products/dish-wash.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/dish-wash(?:/)?$"
+      "regex": "^(?!/_next)/category/dish-wash(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/disinfectants.html",
-      "destination": "/diamondcapitaloasis/products/disinfectants-oman.html",
+      "source": "/category/disinfectants.html",
+      "destination": "/products/disinfectants-oman.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/disinfectants\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/disinfectants\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/disinfectants",
-      "destination": "/diamondcapitaloasis/products/disinfectants-oman.html",
+      "source": "/category/disinfectants",
+      "destination": "/products/disinfectants-oman.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/disinfectants(?:/)?$"
+      "regex": "^(?!/_next)/category/disinfectants(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/feather-duster.html",
-      "destination": "/diamondcapitaloasis/products/feather-duster.html",
+      "source": "/category/feather-duster.html",
+      "destination": "/products/feather-duster.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/feather-duster\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/feather-duster\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/feather-duster",
-      "destination": "/diamondcapitaloasis/products/feather-duster.html",
+      "source": "/category/feather-duster",
+      "destination": "/products/feather-duster.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/feather-duster(?:/)?$"
+      "regex": "^(?!/_next)/category/feather-duster(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/floor-glass-wiper.html",
-      "destination": "/diamondcapitaloasis/products/floor-glass-wiper.html",
+      "source": "/category/floor-glass-wiper.html",
+      "destination": "/products/floor-glass-wiper.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/floor-glass-wiper\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/floor-glass-wiper\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/floor-glass-wiper",
-      "destination": "/diamondcapitaloasis/products/floor-glass-wiper.html",
+      "source": "/category/floor-glass-wiper",
+      "destination": "/products/floor-glass-wiper.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/floor-glass-wiper(?:/)?$"
+      "regex": "^(?!/_next)/category/floor-glass-wiper(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/garbage-bags.html",
-      "destination": "/diamondcapitaloasis/products/garbage-bags.html",
+      "source": "/category/garbage-bags.html",
+      "destination": "/products/garbage-bags.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/garbage-bags\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/garbage-bags\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/garbage-bags",
-      "destination": "/diamondcapitaloasis/products/garbage-bags.html",
+      "source": "/category/garbage-bags",
+      "destination": "/products/garbage-bags.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/garbage-bags(?:/)?$"
+      "regex": "^(?!/_next)/category/garbage-bags(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/garbage-bins.html",
-      "destination": "/diamondcapitaloasis/products/garbage-bins.html",
+      "source": "/category/garbage-bins.html",
+      "destination": "/products/garbage-bins.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/garbage-bins\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/garbage-bins\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/garbage-bins",
-      "destination": "/diamondcapitaloasis/products/garbage-bins.html",
+      "source": "/category/garbage-bins",
+      "destination": "/products/garbage-bins.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/garbage-bins(?:/)?$"
+      "regex": "^(?!/_next)/category/garbage-bins(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/glass-clothes.html",
-      "destination": "/diamondcapitaloasis/products/glass-clothes.html",
+      "source": "/category/glass-clothes.html",
+      "destination": "/products/glass-clothes.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/glass-clothes\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/glass-clothes\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/glass-clothes",
-      "destination": "/diamondcapitaloasis/products/glass-clothes.html",
+      "source": "/category/glass-clothes",
+      "destination": "/products/glass-clothes.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/glass-clothes(?:/)?$"
+      "regex": "^(?!/_next)/category/glass-clothes(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/hand-sanitizer-dispenser.html",
-      "destination": "/diamondcapitaloasis/products/hand-sanitizer-dispenser.html",
+      "source": "/category/hand-sanitizer-dispenser.html",
+      "destination": "/products/hand-sanitizer-dispenser.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/hand-sanitizer-dispenser\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/hand-sanitizer-dispenser\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/hand-sanitizer-dispenser",
-      "destination": "/diamondcapitaloasis/products/hand-sanitizer-dispenser.html",
+      "source": "/category/hand-sanitizer-dispenser",
+      "destination": "/products/hand-sanitizer-dispenser.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/hand-sanitizer-dispenser(?:/)?$"
+      "regex": "^(?!/_next)/category/hand-sanitizer-dispenser(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/hand-sanitizer.html",
-      "destination": "/diamondcapitaloasis/products/hand-sanitizer.html",
+      "source": "/category/hand-sanitizer.html",
+      "destination": "/products/hand-sanitizer.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/hand-sanitizer\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/hand-sanitizer\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/hand-sanitizer",
-      "destination": "/diamondcapitaloasis/products/hand-sanitizer.html",
+      "source": "/category/hand-sanitizer",
+      "destination": "/products/hand-sanitizer.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/hand-sanitizer(?:/)?$"
+      "regex": "^(?!/_next)/category/hand-sanitizer(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/hand-soap.html",
-      "destination": "/diamondcapitaloasis/products/hand-soap.html",
+      "source": "/category/hand-soap.html",
+      "destination": "/products/hand-soap.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/hand-soap\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/hand-soap\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/hand-soap",
-      "destination": "/diamondcapitaloasis/products/hand-soap.html",
+      "source": "/category/hand-soap",
+      "destination": "/products/hand-soap.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/hand-soap(?:/)?$"
+      "regex": "^(?!/_next)/category/hand-soap(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/hygiene-links-uv-protected-cable-ties.html",
-      "destination": "/diamondcapitaloasis/products/hygiene-links-uv-protected-cable-ties.html",
+      "source": "/category/hygiene-links-uv-protected-cable-ties.html",
+      "destination": "/products/hygiene-links-uv-protected-cable-ties.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/hygiene-links-uv-protected-cable-ties\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/hygiene-links-uv-protected-cable-ties\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/hygiene-links-uv-protected-cable-ties",
-      "destination": "/diamondcapitaloasis/products/hygiene-links-uv-protected-cable-ties.html",
+      "source": "/category/hygiene-links-uv-protected-cable-ties",
+      "destination": "/products/hygiene-links-uv-protected-cable-ties.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/hygiene-links-uv-protected-cable-ties(?:/)?$"
+      "regex": "^(?!/_next)/category/hygiene-links-uv-protected-cable-ties(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/insect-killer.html",
-      "destination": "/diamondcapitaloasis/products/insect-killer.html",
+      "source": "/category/insect-killer.html",
+      "destination": "/products/insect-killer.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/insect-killer\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/insect-killer\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/insect-killer",
-      "destination": "/diamondcapitaloasis/products/insect-killer.html",
+      "source": "/category/insect-killer",
+      "destination": "/products/insect-killer.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/insect-killer(?:/)?$"
+      "regex": "^(?!/_next)/category/insect-killer(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/laundry-bags.html",
-      "destination": "/diamondcapitaloasis/products/laundry-bags.html",
+      "source": "/category/laundry-bags.html",
+      "destination": "/products/laundry-bags.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/laundry-bags\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/laundry-bags\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/laundry-bags",
-      "destination": "/diamondcapitaloasis/products/laundry-bags.html",
+      "source": "/category/laundry-bags",
+      "destination": "/products/laundry-bags.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/laundry-bags(?:/)?$"
+      "regex": "^(?!/_next)/category/laundry-bags(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/mop-buckets-trolley.html",
-      "destination": "/diamondcapitaloasis/products/mop-buckets-trolley-uae",
+      "source": "/category/mop-buckets-trolley.html",
+      "destination": "/products/mop-buckets-trolley-uae",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/mop-buckets-trolley\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/mop-buckets-trolley\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/mop-buckets-trolley",
-      "destination": "/diamondcapitaloasis/products/mop-buckets-trolley-uae",
+      "source": "/category/mop-buckets-trolley",
+      "destination": "/products/mop-buckets-trolley-uae",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/mop-buckets-trolley(?:/)?$"
+      "regex": "^(?!/_next)/category/mop-buckets-trolley(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/mops-and-clips.html",
-      "destination": "/diamondcapitaloasis/products/mops-and-clips-oman.html",
+      "source": "/category/mops-and-clips.html",
+      "destination": "/products/mops-and-clips-oman.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/mops-and-clips\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/mops-and-clips\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/mops-and-clips",
-      "destination": "/diamondcapitaloasis/products/mops-and-clips-oman.html",
+      "source": "/category/mops-and-clips",
+      "destination": "/products/mops-and-clips-oman.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/mops-and-clips(?:/)?$"
+      "regex": "^(?!/_next)/category/mops-and-clips(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/multi-purpose-detergents.html",
-      "destination": "/diamondcapitaloasis/products/multi-purpose-detergents-uae",
+      "source": "/category/multi-purpose-detergents.html",
+      "destination": "/products/multi-purpose-detergents-uae",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/multi-purpose-detergents\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/multi-purpose-detergents\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/multi-purpose-detergents",
-      "destination": "/diamondcapitaloasis/products/multi-purpose-detergents-uae",
+      "source": "/category/multi-purpose-detergents",
+      "destination": "/products/multi-purpose-detergents-uae",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/multi-purpose-detergents(?:/)?$"
+      "regex": "^(?!/_next)/category/multi-purpose-detergents(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/other-products.html",
-      "destination": "/diamondcapitaloasis/products/other-products.html",
+      "source": "/category/other-products.html",
+      "destination": "/products/other-products.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/other-products\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/other-products\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/other-products",
-      "destination": "/diamondcapitaloasis/products/other-products.html",
+      "source": "/category/other-products",
+      "destination": "/products/other-products.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/other-products(?:/)?$"
+      "regex": "^(?!/_next)/category/other-products(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/soap-dispensers.html",
-      "destination": "/diamondcapitaloasis/products/soap-dispensers-uae",
+      "source": "/category/soap-dispensers.html",
+      "destination": "/products/soap-dispensers-uae",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/soap-dispensers\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/soap-dispensers\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/soap-dispensers",
-      "destination": "/diamondcapitaloasis/products/soap-dispensers-uae",
+      "source": "/category/soap-dispensers",
+      "destination": "/products/soap-dispensers-uae",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/soap-dispensers(?:/)?$"
+      "regex": "^(?!/_next)/category/soap-dispensers(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/steel-bins.html",
-      "destination": "/diamondcapitaloasis/products/steel-bins.html",
+      "source": "/category/steel-bins.html",
+      "destination": "/products/steel-bins.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/steel-bins\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/steel-bins\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/steel-bins",
-      "destination": "/diamondcapitaloasis/products/steel-bins.html",
+      "source": "/category/steel-bins",
+      "destination": "/products/steel-bins.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/steel-bins(?:/)?$"
+      "regex": "^(?!/_next)/category/steel-bins(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/tissue-dispensers.html",
-      "destination": "/diamondcapitaloasis/products/tissue-dispensers-uae",
+      "source": "/category/tissue-dispensers.html",
+      "destination": "/products/tissue-dispensers-uae",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/tissue-dispensers\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/tissue-dispensers\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/tissue-dispensers",
-      "destination": "/diamondcapitaloasis/products/tissue-dispensers-uae",
+      "source": "/category/tissue-dispensers",
+      "destination": "/products/tissue-dispensers-uae",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/tissue-dispensers(?:/)?$"
+      "regex": "^(?!/_next)/category/tissue-dispensers(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/tissue-products.html",
-      "destination": "/diamondcapitaloasis/products/tissue-products.html",
+      "source": "/category/tissue-products.html",
+      "destination": "/products/tissue-products.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/tissue-products\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/tissue-products\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/tissue-products",
-      "destination": "/diamondcapitaloasis/products/tissue-products.html",
+      "source": "/category/tissue-products",
+      "destination": "/products/tissue-products.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/tissue-products(?:/)?$"
+      "regex": "^(?!/_next)/category/tissue-products(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/trolleys.html",
-      "destination": "/diamondcapitaloasis/products/trolleys.html",
+      "source": "/category/trolleys.html",
+      "destination": "/products/trolleys.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/trolleys\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/trolleys\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/trolleys",
-      "destination": "/diamondcapitaloasis/products/trolleys.html",
+      "source": "/category/trolleys",
+      "destination": "/products/trolleys.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/trolleys(?:/)?$"
+      "regex": "^(?!/_next)/category/trolleys(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/washroom-products.html",
-      "destination": "/diamondcapitaloasis/products/washroom-products.html",
+      "source": "/category/washroom-products.html",
+      "destination": "/products/washroom-products.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/washroom-products\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/washroom-products\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/washroom-products",
-      "destination": "/diamondcapitaloasis/products/washroom-products.html",
+      "source": "/category/washroom-products",
+      "destination": "/products/washroom-products.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/washroom-products(?:/)?$"
+      "regex": "^(?!/_next)/category/washroom-products(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/waste-bin.html",
-      "destination": "/diamondcapitaloasis/products/waste-bin-1.html",
+      "source": "/category/waste-bin.html",
+      "destination": "/products/waste-bin-1.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/waste-bin\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/waste-bin\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/waste-bin",
-      "destination": "/diamondcapitaloasis/products/waste-bin-1.html",
+      "source": "/category/waste-bin",
+      "destination": "/products/waste-bin-1.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/waste-bin(?:/)?$"
+      "regex": "^(?!/_next)/category/waste-bin(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/window-washers.html",
-      "destination": "/diamondcapitaloasis/products/window-washers.html",
+      "source": "/category/window-washers.html",
+      "destination": "/products/window-washers.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/window-washers\\.html(?:/)?$"
+      "regex": "^(?!/_next)/category/window-washers\\.html(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/category/window-washers",
-      "destination": "/diamondcapitaloasis/products/window-washers.html",
+      "source": "/category/window-washers",
+      "destination": "/products/window-washers.html",
       "statusCode": 308,
-      "regex": "^(?!/diamondcapitaloasis/_next)/diamondcapitaloasis/category/window-washers(?:/)?$"
+      "regex": "^(?!/_next)/category/window-washers(?:/)?$"
     }
   ],
   "headers": [
     {
-      "source": "/diamondcapitaloasis/:path*",
+      "source": "/:path*",
       "headers": [
         {
           "key": "X-Content-Type-Options",
@@ -581,10 +565,10 @@
           "value": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://connect.facebook.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://connect.facebook.net https://www.facebook.com; frame-src 'self' https://www.google.com https://www.youtube.com https://www.youtube-nocookie.com https://www.googletagmanager.com; worker-src 'self' blob:; upgrade-insecure-requests"
         }
       ],
-      "regex": "^/diamondcapitaloasis(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/admin/:path*",
+      "source": "/admin/:path*",
       "headers": [
         {
           "key": "Cache-Control",
@@ -599,10 +583,10 @@
           "value": "noindex, nofollow, noarchive, nosnippet"
         }
       ],
-      "regex": "^/diamondcapitaloasis/admin(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+      "regex": "^/admin(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
     },
     {
-      "source": "/diamondcapitaloasis/api/:path*",
+      "source": "/api/:path*",
       "headers": [
         {
           "key": "Cache-Control",
@@ -613,7 +597,7 @@
           "value": "noindex, nofollow, noarchive, nosnippet"
         }
       ],
-      "regex": "^/diamondcapitaloasis/api(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+      "regex": "^/api(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
     }
   ],
   "onMatchHeaders": [],
@@ -621,159 +605,159 @@
     "beforeFiles": [],
     "afterFiles": [
       {
-        "source": "/diamondcapitaloasis/products/air-fresheners-oman.html",
-        "destination": "/diamondcapitaloasis/category/air-fresheners.html",
-        "regex": "^/diamondcapitaloasis/products/air-fresheners-oman\\.html(?:/)?$"
+        "source": "/products/air-fresheners-oman.html",
+        "destination": "/category/air-fresheners.html",
+        "regex": "^/products/air-fresheners-oman\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/all-purpose-cleaner.html",
-        "destination": "/diamondcapitaloasis/category/all-purpose-cleaner.html",
-        "regex": "^/diamondcapitaloasis/products/all-purpose-cleaner\\.html(?:/)?$"
+        "source": "/products/all-purpose-cleaner.html",
+        "destination": "/category/all-purpose-cleaner.html",
+        "regex": "^/products/all-purpose-cleaner\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/branded-cleaning-chemicals.html",
-        "destination": "/diamondcapitaloasis/category/branded-cleaning-chemicals.html",
-        "regex": "^/diamondcapitaloasis/products/branded-cleaning-chemicals\\.html(?:/)?$"
+        "source": "/products/branded-cleaning-chemicals.html",
+        "destination": "/category/branded-cleaning-chemicals.html",
+        "regex": "^/products/branded-cleaning-chemicals\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/brooms-and-mops-oman",
-        "destination": "/diamondcapitaloasis/category/brooms-and-mops.html",
-        "regex": "^/diamondcapitaloasis/products/brooms-and-mops-oman(?:/)?$"
+        "source": "/products/brooms-and-mops-oman",
+        "destination": "/category/brooms-and-mops.html",
+        "regex": "^/products/brooms-and-mops-oman(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/car-care-products.html",
-        "destination": "/diamondcapitaloasis/category/car-care-products.html",
-        "regex": "^/diamondcapitaloasis/products/car-care-products\\.html(?:/)?$"
+        "source": "/products/car-care-products.html",
+        "destination": "/category/car-care-products.html",
+        "regex": "^/products/car-care-products\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/detergent-disinfectants-uae.html",
-        "destination": "/diamondcapitaloasis/category/detergent-disinfectants.html",
-        "regex": "^/diamondcapitaloasis/products/detergent-disinfectants-uae\\.html(?:/)?$"
+        "source": "/products/detergent-disinfectants-uae.html",
+        "destination": "/category/detergent-disinfectants.html",
+        "regex": "^/products/detergent-disinfectants-uae\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/dish-wash.html",
-        "destination": "/diamondcapitaloasis/category/dish-wash.html",
-        "regex": "^/diamondcapitaloasis/products/dish-wash\\.html(?:/)?$"
+        "source": "/products/dish-wash.html",
+        "destination": "/category/dish-wash.html",
+        "regex": "^/products/dish-wash\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/disinfectants-oman.html",
-        "destination": "/diamondcapitaloasis/category/disinfectants.html",
-        "regex": "^/diamondcapitaloasis/products/disinfectants-oman\\.html(?:/)?$"
+        "source": "/products/disinfectants-oman.html",
+        "destination": "/category/disinfectants.html",
+        "regex": "^/products/disinfectants-oman\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/feather-duster.html",
-        "destination": "/diamondcapitaloasis/category/feather-duster.html",
-        "regex": "^/diamondcapitaloasis/products/feather-duster\\.html(?:/)?$"
+        "source": "/products/feather-duster.html",
+        "destination": "/category/feather-duster.html",
+        "regex": "^/products/feather-duster\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/floor-glass-wiper.html",
-        "destination": "/diamondcapitaloasis/category/floor-glass-wiper.html",
-        "regex": "^/diamondcapitaloasis/products/floor-glass-wiper\\.html(?:/)?$"
+        "source": "/products/floor-glass-wiper.html",
+        "destination": "/category/floor-glass-wiper.html",
+        "regex": "^/products/floor-glass-wiper\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/garbage-bags.html",
-        "destination": "/diamondcapitaloasis/category/garbage-bags.html",
-        "regex": "^/diamondcapitaloasis/products/garbage-bags\\.html(?:/)?$"
+        "source": "/products/garbage-bags.html",
+        "destination": "/category/garbage-bags.html",
+        "regex": "^/products/garbage-bags\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/garbage-bins.html",
-        "destination": "/diamondcapitaloasis/category/garbage-bins.html",
-        "regex": "^/diamondcapitaloasis/products/garbage-bins\\.html(?:/)?$"
+        "source": "/products/garbage-bins.html",
+        "destination": "/category/garbage-bins.html",
+        "regex": "^/products/garbage-bins\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/glass-clothes.html",
-        "destination": "/diamondcapitaloasis/category/glass-clothes.html",
-        "regex": "^/diamondcapitaloasis/products/glass-clothes\\.html(?:/)?$"
+        "source": "/products/glass-clothes.html",
+        "destination": "/category/glass-clothes.html",
+        "regex": "^/products/glass-clothes\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/hand-sanitizer-dispenser.html",
-        "destination": "/diamondcapitaloasis/category/hand-sanitizer-dispenser.html",
-        "regex": "^/diamondcapitaloasis/products/hand-sanitizer-dispenser\\.html(?:/)?$"
+        "source": "/products/hand-sanitizer-dispenser.html",
+        "destination": "/category/hand-sanitizer-dispenser.html",
+        "regex": "^/products/hand-sanitizer-dispenser\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/hand-sanitizer.html",
-        "destination": "/diamondcapitaloasis/category/hand-sanitizer.html",
-        "regex": "^/diamondcapitaloasis/products/hand-sanitizer\\.html(?:/)?$"
+        "source": "/products/hand-sanitizer.html",
+        "destination": "/category/hand-sanitizer.html",
+        "regex": "^/products/hand-sanitizer\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/hand-soap.html",
-        "destination": "/diamondcapitaloasis/category/hand-soap.html",
-        "regex": "^/diamondcapitaloasis/products/hand-soap\\.html(?:/)?$"
+        "source": "/products/hand-soap.html",
+        "destination": "/category/hand-soap.html",
+        "regex": "^/products/hand-soap\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/hygiene-links-uv-protected-cable-ties.html",
-        "destination": "/diamondcapitaloasis/category/hygiene-links-uv-protected-cable-ties.html",
-        "regex": "^/diamondcapitaloasis/products/hygiene-links-uv-protected-cable-ties\\.html(?:/)?$"
+        "source": "/products/hygiene-links-uv-protected-cable-ties.html",
+        "destination": "/category/hygiene-links-uv-protected-cable-ties.html",
+        "regex": "^/products/hygiene-links-uv-protected-cable-ties\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/insect-killer.html",
-        "destination": "/diamondcapitaloasis/category/insect-killer.html",
-        "regex": "^/diamondcapitaloasis/products/insect-killer\\.html(?:/)?$"
+        "source": "/products/insect-killer.html",
+        "destination": "/category/insect-killer.html",
+        "regex": "^/products/insect-killer\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/laundry-bags.html",
-        "destination": "/diamondcapitaloasis/category/laundry-bags.html",
-        "regex": "^/diamondcapitaloasis/products/laundry-bags\\.html(?:/)?$"
+        "source": "/products/laundry-bags.html",
+        "destination": "/category/laundry-bags.html",
+        "regex": "^/products/laundry-bags\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/mop-buckets-trolley-uae",
-        "destination": "/diamondcapitaloasis/category/mop-buckets-trolley.html",
-        "regex": "^/diamondcapitaloasis/products/mop-buckets-trolley-uae(?:/)?$"
+        "source": "/products/mop-buckets-trolley-uae",
+        "destination": "/category/mop-buckets-trolley.html",
+        "regex": "^/products/mop-buckets-trolley-uae(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/mops-and-clips-oman.html",
-        "destination": "/diamondcapitaloasis/category/mops-and-clips.html",
-        "regex": "^/diamondcapitaloasis/products/mops-and-clips-oman\\.html(?:/)?$"
+        "source": "/products/mops-and-clips-oman.html",
+        "destination": "/category/mops-and-clips.html",
+        "regex": "^/products/mops-and-clips-oman\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/multi-purpose-detergents-uae",
-        "destination": "/diamondcapitaloasis/category/multi-purpose-detergents.html",
-        "regex": "^/diamondcapitaloasis/products/multi-purpose-detergents-uae(?:/)?$"
+        "source": "/products/multi-purpose-detergents-uae",
+        "destination": "/category/multi-purpose-detergents.html",
+        "regex": "^/products/multi-purpose-detergents-uae(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/other-products.html",
-        "destination": "/diamondcapitaloasis/category/other-products.html",
-        "regex": "^/diamondcapitaloasis/products/other-products\\.html(?:/)?$"
+        "source": "/products/other-products.html",
+        "destination": "/category/other-products.html",
+        "regex": "^/products/other-products\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/soap-dispensers-uae",
-        "destination": "/diamondcapitaloasis/category/soap-dispensers.html",
-        "regex": "^/diamondcapitaloasis/products/soap-dispensers-uae(?:/)?$"
+        "source": "/products/soap-dispensers-uae",
+        "destination": "/category/soap-dispensers.html",
+        "regex": "^/products/soap-dispensers-uae(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/steel-bins.html",
-        "destination": "/diamondcapitaloasis/category/steel-bins.html",
-        "regex": "^/diamondcapitaloasis/products/steel-bins\\.html(?:/)?$"
+        "source": "/products/steel-bins.html",
+        "destination": "/category/steel-bins.html",
+        "regex": "^/products/steel-bins\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/tissue-dispensers-uae",
-        "destination": "/diamondcapitaloasis/category/tissue-dispensers.html",
-        "regex": "^/diamondcapitaloasis/products/tissue-dispensers-uae(?:/)?$"
+        "source": "/products/tissue-dispensers-uae",
+        "destination": "/category/tissue-dispensers.html",
+        "regex": "^/products/tissue-dispensers-uae(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/tissue-products.html",
-        "destination": "/diamondcapitaloasis/category/tissue-products.html",
-        "regex": "^/diamondcapitaloasis/products/tissue-products\\.html(?:/)?$"
+        "source": "/products/tissue-products.html",
+        "destination": "/category/tissue-products.html",
+        "regex": "^/products/tissue-products\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/trolleys.html",
-        "destination": "/diamondcapitaloasis/category/trolleys.html",
-        "regex": "^/diamondcapitaloasis/products/trolleys\\.html(?:/)?$"
+        "source": "/products/trolleys.html",
+        "destination": "/category/trolleys.html",
+        "regex": "^/products/trolleys\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/washroom-products.html",
-        "destination": "/diamondcapitaloasis/category/washroom-products.html",
-        "regex": "^/diamondcapitaloasis/products/washroom-products\\.html(?:/)?$"
+        "source": "/products/washroom-products.html",
+        "destination": "/category/washroom-products.html",
+        "regex": "^/products/washroom-products\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/waste-bin-1.html",
-        "destination": "/diamondcapitaloasis/category/waste-bin.html",
-        "regex": "^/diamondcapitaloasis/products/waste-bin-1\\.html(?:/)?$"
+        "source": "/products/waste-bin-1.html",
+        "destination": "/category/waste-bin.html",
+        "regex": "^/products/waste-bin-1\\.html(?:/)?$"
       },
       {
-        "source": "/diamondcapitaloasis/products/window-washers.html",
-        "destination": "/diamondcapitaloasis/category/window-washers.html",
-        "regex": "^/diamondcapitaloasis/products/window-washers\\.html(?:/)?$"
+        "source": "/products/window-washers.html",
+        "destination": "/category/window-washers.html",
+        "regex": "^/products/window-washers\\.html(?:/)?$"
       }
     ],
     "fallback": []

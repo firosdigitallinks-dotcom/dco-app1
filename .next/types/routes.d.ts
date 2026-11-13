@@ -5,8 +5,8 @@ type AppRoutes = "/" | "/about" | "/about.html" | "/admin" | "/admin/login" | "/
 type AppRouteHandlerRoutes = "/api/admin/data" | "/api/admin/session" | "/api/admin/upload" | "/api/inquiries" | "/media/[key]"
 type PageRoutes = never
 type LayoutRoutes = "/"
-type RedirectRoutes = "/" | "/diamondcapitaloasis/baygon-details.html" | "/diamondcapitaloasis/category/air-fresheners" | "/diamondcapitaloasis/category/air-fresheners.html" | "/diamondcapitaloasis/category/all-purpose-cleaner" | "/diamondcapitaloasis/category/all-purpose-cleaner.html" | "/diamondcapitaloasis/category/branded-cleaning-chemicals" | "/diamondcapitaloasis/category/branded-cleaning-chemicals.html" | "/diamondcapitaloasis/category/brooms-and-mops" | "/diamondcapitaloasis/category/brooms-and-mops.html" | "/diamondcapitaloasis/category/car-care-products" | "/diamondcapitaloasis/category/car-care-products.html" | "/diamondcapitaloasis/category/detergent-disinfectants" | "/diamondcapitaloasis/category/detergent-disinfectants.html" | "/diamondcapitaloasis/category/dish-wash" | "/diamondcapitaloasis/category/dish-wash.html" | "/diamondcapitaloasis/category/disinfectants" | "/diamondcapitaloasis/category/disinfectants.html" | "/diamondcapitaloasis/category/feather-duster" | "/diamondcapitaloasis/category/feather-duster.html" | "/diamondcapitaloasis/category/floor-glass-wiper" | "/diamondcapitaloasis/category/floor-glass-wiper.html" | "/diamondcapitaloasis/category/garbage-bags" | "/diamondcapitaloasis/category/garbage-bags.html" | "/diamondcapitaloasis/category/garbage-bins" | "/diamondcapitaloasis/category/garbage-bins.html" | "/diamondcapitaloasis/category/glass-clothes" | "/diamondcapitaloasis/category/glass-clothes.html" | "/diamondcapitaloasis/category/hand-sanitizer" | "/diamondcapitaloasis/category/hand-sanitizer-dispenser" | "/diamondcapitaloasis/category/hand-sanitizer-dispenser.html" | "/diamondcapitaloasis/category/hand-sanitizer.html" | "/diamondcapitaloasis/category/hand-soap" | "/diamondcapitaloasis/category/hand-soap.html" | "/diamondcapitaloasis/category/hygiene-links-uv-protected-cable-ties" | "/diamondcapitaloasis/category/hygiene-links-uv-protected-cable-ties.html" | "/diamondcapitaloasis/category/insect-killer" | "/diamondcapitaloasis/category/insect-killer.html" | "/diamondcapitaloasis/category/laundry-bags" | "/diamondcapitaloasis/category/laundry-bags.html" | "/diamondcapitaloasis/category/mop-buckets-trolley" | "/diamondcapitaloasis/category/mop-buckets-trolley.html" | "/diamondcapitaloasis/category/mops-and-clips" | "/diamondcapitaloasis/category/mops-and-clips.html" | "/diamondcapitaloasis/category/multi-purpose-detergents" | "/diamondcapitaloasis/category/multi-purpose-detergents.html" | "/diamondcapitaloasis/category/other-products" | "/diamondcapitaloasis/category/other-products.html" | "/diamondcapitaloasis/category/soap-dispensers" | "/diamondcapitaloasis/category/soap-dispensers.html" | "/diamondcapitaloasis/category/steel-bins" | "/diamondcapitaloasis/category/steel-bins.html" | "/diamondcapitaloasis/category/tissue-dispensers" | "/diamondcapitaloasis/category/tissue-dispensers.html" | "/diamondcapitaloasis/category/tissue-products" | "/diamondcapitaloasis/category/tissue-products.html" | "/diamondcapitaloasis/category/trolleys" | "/diamondcapitaloasis/category/trolleys.html" | "/diamondcapitaloasis/category/washroom-products" | "/diamondcapitaloasis/category/washroom-products.html" | "/diamondcapitaloasis/category/waste-bin" | "/diamondcapitaloasis/category/waste-bin.html" | "/diamondcapitaloasis/category/window-washers" | "/diamondcapitaloasis/category/window-washers.html" | "/diamondcapitaloasis/clean-glass-cloth-30-cm-pack-of-5-pieces-details.html" | "/diamondcapitaloasis/dish-wash-liquidregular-details.html" | "/diamondcapitaloasis/double-bucket-trolley-nick-50-l-details.html" | "/diamondcapitaloasis/feminine-sanitary-bins-details.html" | "/diamondcapitaloasis/furniture-polish-details.html" | "/diamondcapitaloasis/furniture-polish-uae-details.html" | "/diamondcapitaloasis/hygiene-links-uv-protected-cable-ties-details.html" | "/diamondcapitaloasis/products/brooms-and-mops-uae.html" | "/diamondcapitaloasis/products/detergent-disinfectants-oman" | "/diamondcapitaloasis/products/garbage-bins-oman.html" | "/diamondcapitaloasis/products/garbage-bins-uae" | "/diamondcapitaloasis/products/hand-sanitizer-oman.html" | "/diamondcapitaloasis/products/mop-buckets-trolley-oman" | "/diamondcapitaloasis/products/soap-dispensers-oman.html" | "/diamondcapitaloasis/products/tissue-dispensers.html" | "/diamondcapitaloasis/products/washroom-products-oman.html" | "/diamondcapitaloasis/safety-helmet-details.html" | "/diamondcapitaloasis/safety-jacket-details.html" | "/diamondcapitaloasis/safety-shoes-details.html" | "/diamondcapitaloasis/single-bucket-trolley-partition-action-pro-30l-red-details.html" | "/diamondcapitaloasis/swimming-pool-cleaning-chemicals-details.html" | "/diamondcapitaloasis/toilet-roll-details.html"
-type RewriteRoutes = "/diamondcapitaloasis/products/air-fresheners-oman.html" | "/diamondcapitaloasis/products/all-purpose-cleaner.html" | "/diamondcapitaloasis/products/branded-cleaning-chemicals.html" | "/diamondcapitaloasis/products/brooms-and-mops-oman" | "/diamondcapitaloasis/products/car-care-products.html" | "/diamondcapitaloasis/products/detergent-disinfectants-uae.html" | "/diamondcapitaloasis/products/dish-wash.html" | "/diamondcapitaloasis/products/disinfectants-oman.html" | "/diamondcapitaloasis/products/feather-duster.html" | "/diamondcapitaloasis/products/floor-glass-wiper.html" | "/diamondcapitaloasis/products/garbage-bags.html" | "/diamondcapitaloasis/products/garbage-bins.html" | "/diamondcapitaloasis/products/glass-clothes.html" | "/diamondcapitaloasis/products/hand-sanitizer-dispenser.html" | "/diamondcapitaloasis/products/hand-sanitizer.html" | "/diamondcapitaloasis/products/hand-soap.html" | "/diamondcapitaloasis/products/hygiene-links-uv-protected-cable-ties.html" | "/diamondcapitaloasis/products/insect-killer.html" | "/diamondcapitaloasis/products/laundry-bags.html" | "/diamondcapitaloasis/products/mop-buckets-trolley-uae" | "/diamondcapitaloasis/products/mops-and-clips-oman.html" | "/diamondcapitaloasis/products/multi-purpose-detergents-uae" | "/diamondcapitaloasis/products/other-products.html" | "/diamondcapitaloasis/products/soap-dispensers-uae" | "/diamondcapitaloasis/products/steel-bins.html" | "/diamondcapitaloasis/products/tissue-dispensers-uae" | "/diamondcapitaloasis/products/tissue-products.html" | "/diamondcapitaloasis/products/trolleys.html" | "/diamondcapitaloasis/products/washroom-products.html" | "/diamondcapitaloasis/products/waste-bin-1.html" | "/diamondcapitaloasis/products/window-washers.html"
+type RedirectRoutes = "/baygon-details.html" | "/category/air-fresheners" | "/category/air-fresheners.html" | "/category/all-purpose-cleaner" | "/category/all-purpose-cleaner.html" | "/category/branded-cleaning-chemicals" | "/category/branded-cleaning-chemicals.html" | "/category/brooms-and-mops" | "/category/brooms-and-mops.html" | "/category/car-care-products" | "/category/car-care-products.html" | "/category/detergent-disinfectants" | "/category/detergent-disinfectants.html" | "/category/dish-wash" | "/category/dish-wash.html" | "/category/disinfectants" | "/category/disinfectants.html" | "/category/feather-duster" | "/category/feather-duster.html" | "/category/floor-glass-wiper" | "/category/floor-glass-wiper.html" | "/category/garbage-bags" | "/category/garbage-bags.html" | "/category/garbage-bins" | "/category/garbage-bins.html" | "/category/glass-clothes" | "/category/glass-clothes.html" | "/category/hand-sanitizer" | "/category/hand-sanitizer-dispenser" | "/category/hand-sanitizer-dispenser.html" | "/category/hand-sanitizer.html" | "/category/hand-soap" | "/category/hand-soap.html" | "/category/hygiene-links-uv-protected-cable-ties" | "/category/hygiene-links-uv-protected-cable-ties.html" | "/category/insect-killer" | "/category/insect-killer.html" | "/category/laundry-bags" | "/category/laundry-bags.html" | "/category/mop-buckets-trolley" | "/category/mop-buckets-trolley.html" | "/category/mops-and-clips" | "/category/mops-and-clips.html" | "/category/multi-purpose-detergents" | "/category/multi-purpose-detergents.html" | "/category/other-products" | "/category/other-products.html" | "/category/soap-dispensers" | "/category/soap-dispensers.html" | "/category/steel-bins" | "/category/steel-bins.html" | "/category/tissue-dispensers" | "/category/tissue-dispensers.html" | "/category/tissue-products" | "/category/tissue-products.html" | "/category/trolleys" | "/category/trolleys.html" | "/category/washroom-products" | "/category/washroom-products.html" | "/category/waste-bin" | "/category/waste-bin.html" | "/category/window-washers" | "/category/window-washers.html" | "/clean-glass-cloth-30-cm-pack-of-5-pieces-details.html" | "/dish-wash-liquidregular-details.html" | "/double-bucket-trolley-nick-50-l-details.html" | "/feminine-sanitary-bins-details.html" | "/furniture-polish-details.html" | "/furniture-polish-uae-details.html" | "/hygiene-links-uv-protected-cable-ties-details.html" | "/products/brooms-and-mops-uae.html" | "/products/detergent-disinfectants-oman" | "/products/garbage-bins-oman.html" | "/products/garbage-bins-uae" | "/products/hand-sanitizer-oman.html" | "/products/mop-buckets-trolley-oman" | "/products/soap-dispensers-oman.html" | "/products/tissue-dispensers.html" | "/products/washroom-products-oman.html" | "/safety-helmet-details.html" | "/safety-jacket-details.html" | "/safety-shoes-details.html" | "/single-bucket-trolley-partition-action-pro-30l-red-details.html" | "/swimming-pool-cleaning-chemicals-details.html" | "/toilet-roll-details.html"
+type RewriteRoutes = "/products/air-fresheners-oman.html" | "/products/all-purpose-cleaner.html" | "/products/branded-cleaning-chemicals.html" | "/products/brooms-and-mops-oman" | "/products/car-care-products.html" | "/products/detergent-disinfectants-uae.html" | "/products/dish-wash.html" | "/products/disinfectants-oman.html" | "/products/feather-duster.html" | "/products/floor-glass-wiper.html" | "/products/garbage-bags.html" | "/products/garbage-bins.html" | "/products/glass-clothes.html" | "/products/hand-sanitizer-dispenser.html" | "/products/hand-sanitizer.html" | "/products/hand-soap.html" | "/products/hygiene-links-uv-protected-cable-ties.html" | "/products/insect-killer.html" | "/products/laundry-bags.html" | "/products/mop-buckets-trolley-uae" | "/products/mops-and-clips-oman.html" | "/products/multi-purpose-detergents-uae" | "/products/other-products.html" | "/products/soap-dispensers-uae" | "/products/steel-bins.html" | "/products/tissue-dispensers-uae" | "/products/tissue-products.html" | "/products/trolleys.html" | "/products/washroom-products.html" | "/products/waste-bin-1.html" | "/products/window-washers.html"
 type Routes = AppRoutes | PageRoutes | LayoutRoutes | RedirectRoutes | RewriteRoutes | AppRouteHandlerRoutes
 
 
@@ -20,6 +20,7 @@ interface ParamMap {
   "/api/admin/session": {}
   "/api/admin/upload": {}
   "/api/inquiries": {}
+  "/baygon-details.html": {}
   "/blog": {}
   "/blog.html": {}
   "/blog/[offset]": { "offset": string; }
@@ -27,130 +28,129 @@ interface ParamMap {
   "/catalog": {}
   "/catalog.html": {}
   "/category/[slug]": { "slug": string; }
+  "/category/air-fresheners": {}
+  "/category/air-fresheners.html": {}
+  "/category/all-purpose-cleaner": {}
+  "/category/all-purpose-cleaner.html": {}
+  "/category/branded-cleaning-chemicals": {}
+  "/category/branded-cleaning-chemicals.html": {}
+  "/category/brooms-and-mops": {}
+  "/category/brooms-and-mops.html": {}
+  "/category/car-care-products": {}
+  "/category/car-care-products.html": {}
+  "/category/detergent-disinfectants": {}
+  "/category/detergent-disinfectants.html": {}
+  "/category/dish-wash": {}
+  "/category/dish-wash.html": {}
+  "/category/disinfectants": {}
+  "/category/disinfectants.html": {}
+  "/category/feather-duster": {}
+  "/category/feather-duster.html": {}
+  "/category/floor-glass-wiper": {}
+  "/category/floor-glass-wiper.html": {}
+  "/category/garbage-bags": {}
+  "/category/garbage-bags.html": {}
+  "/category/garbage-bins": {}
+  "/category/garbage-bins.html": {}
+  "/category/glass-clothes": {}
+  "/category/glass-clothes.html": {}
+  "/category/hand-sanitizer": {}
+  "/category/hand-sanitizer-dispenser": {}
+  "/category/hand-sanitizer-dispenser.html": {}
+  "/category/hand-sanitizer.html": {}
+  "/category/hand-soap": {}
+  "/category/hand-soap.html": {}
+  "/category/hygiene-links-uv-protected-cable-ties": {}
+  "/category/hygiene-links-uv-protected-cable-ties.html": {}
+  "/category/insect-killer": {}
+  "/category/insect-killer.html": {}
+  "/category/laundry-bags": {}
+  "/category/laundry-bags.html": {}
+  "/category/mop-buckets-trolley": {}
+  "/category/mop-buckets-trolley.html": {}
+  "/category/mops-and-clips": {}
+  "/category/mops-and-clips.html": {}
+  "/category/multi-purpose-detergents": {}
+  "/category/multi-purpose-detergents.html": {}
+  "/category/other-products": {}
+  "/category/other-products.html": {}
+  "/category/soap-dispensers": {}
+  "/category/soap-dispensers.html": {}
+  "/category/steel-bins": {}
+  "/category/steel-bins.html": {}
+  "/category/tissue-dispensers": {}
+  "/category/tissue-dispensers.html": {}
+  "/category/tissue-products": {}
+  "/category/tissue-products.html": {}
+  "/category/trolleys": {}
+  "/category/trolleys.html": {}
+  "/category/washroom-products": {}
+  "/category/washroom-products.html": {}
+  "/category/waste-bin": {}
+  "/category/waste-bin.html": {}
+  "/category/window-washers": {}
+  "/category/window-washers.html": {}
   "/chairmans-message.html": {}
+  "/clean-glass-cloth-30-cm-pack-of-5-pieces-details.html": {}
   "/contact": {}
   "/contact.html": {}
-  "/diamondcapitaloasis/baygon-details.html": {}
-  "/diamondcapitaloasis/category/air-fresheners": {}
-  "/diamondcapitaloasis/category/air-fresheners.html": {}
-  "/diamondcapitaloasis/category/all-purpose-cleaner": {}
-  "/diamondcapitaloasis/category/all-purpose-cleaner.html": {}
-  "/diamondcapitaloasis/category/branded-cleaning-chemicals": {}
-  "/diamondcapitaloasis/category/branded-cleaning-chemicals.html": {}
-  "/diamondcapitaloasis/category/brooms-and-mops": {}
-  "/diamondcapitaloasis/category/brooms-and-mops.html": {}
-  "/diamondcapitaloasis/category/car-care-products": {}
-  "/diamondcapitaloasis/category/car-care-products.html": {}
-  "/diamondcapitaloasis/category/detergent-disinfectants": {}
-  "/diamondcapitaloasis/category/detergent-disinfectants.html": {}
-  "/diamondcapitaloasis/category/dish-wash": {}
-  "/diamondcapitaloasis/category/dish-wash.html": {}
-  "/diamondcapitaloasis/category/disinfectants": {}
-  "/diamondcapitaloasis/category/disinfectants.html": {}
-  "/diamondcapitaloasis/category/feather-duster": {}
-  "/diamondcapitaloasis/category/feather-duster.html": {}
-  "/diamondcapitaloasis/category/floor-glass-wiper": {}
-  "/diamondcapitaloasis/category/floor-glass-wiper.html": {}
-  "/diamondcapitaloasis/category/garbage-bags": {}
-  "/diamondcapitaloasis/category/garbage-bags.html": {}
-  "/diamondcapitaloasis/category/garbage-bins": {}
-  "/diamondcapitaloasis/category/garbage-bins.html": {}
-  "/diamondcapitaloasis/category/glass-clothes": {}
-  "/diamondcapitaloasis/category/glass-clothes.html": {}
-  "/diamondcapitaloasis/category/hand-sanitizer": {}
-  "/diamondcapitaloasis/category/hand-sanitizer-dispenser": {}
-  "/diamondcapitaloasis/category/hand-sanitizer-dispenser.html": {}
-  "/diamondcapitaloasis/category/hand-sanitizer.html": {}
-  "/diamondcapitaloasis/category/hand-soap": {}
-  "/diamondcapitaloasis/category/hand-soap.html": {}
-  "/diamondcapitaloasis/category/hygiene-links-uv-protected-cable-ties": {}
-  "/diamondcapitaloasis/category/hygiene-links-uv-protected-cable-ties.html": {}
-  "/diamondcapitaloasis/category/insect-killer": {}
-  "/diamondcapitaloasis/category/insect-killer.html": {}
-  "/diamondcapitaloasis/category/laundry-bags": {}
-  "/diamondcapitaloasis/category/laundry-bags.html": {}
-  "/diamondcapitaloasis/category/mop-buckets-trolley": {}
-  "/diamondcapitaloasis/category/mop-buckets-trolley.html": {}
-  "/diamondcapitaloasis/category/mops-and-clips": {}
-  "/diamondcapitaloasis/category/mops-and-clips.html": {}
-  "/diamondcapitaloasis/category/multi-purpose-detergents": {}
-  "/diamondcapitaloasis/category/multi-purpose-detergents.html": {}
-  "/diamondcapitaloasis/category/other-products": {}
-  "/diamondcapitaloasis/category/other-products.html": {}
-  "/diamondcapitaloasis/category/soap-dispensers": {}
-  "/diamondcapitaloasis/category/soap-dispensers.html": {}
-  "/diamondcapitaloasis/category/steel-bins": {}
-  "/diamondcapitaloasis/category/steel-bins.html": {}
-  "/diamondcapitaloasis/category/tissue-dispensers": {}
-  "/diamondcapitaloasis/category/tissue-dispensers.html": {}
-  "/diamondcapitaloasis/category/tissue-products": {}
-  "/diamondcapitaloasis/category/tissue-products.html": {}
-  "/diamondcapitaloasis/category/trolleys": {}
-  "/diamondcapitaloasis/category/trolleys.html": {}
-  "/diamondcapitaloasis/category/washroom-products": {}
-  "/diamondcapitaloasis/category/washroom-products.html": {}
-  "/diamondcapitaloasis/category/waste-bin": {}
-  "/diamondcapitaloasis/category/waste-bin.html": {}
-  "/diamondcapitaloasis/category/window-washers": {}
-  "/diamondcapitaloasis/category/window-washers.html": {}
-  "/diamondcapitaloasis/clean-glass-cloth-30-cm-pack-of-5-pieces-details.html": {}
-  "/diamondcapitaloasis/dish-wash-liquidregular-details.html": {}
-  "/diamondcapitaloasis/double-bucket-trolley-nick-50-l-details.html": {}
-  "/diamondcapitaloasis/feminine-sanitary-bins-details.html": {}
-  "/diamondcapitaloasis/furniture-polish-details.html": {}
-  "/diamondcapitaloasis/furniture-polish-uae-details.html": {}
-  "/diamondcapitaloasis/hygiene-links-uv-protected-cable-ties-details.html": {}
-  "/diamondcapitaloasis/products/air-fresheners-oman.html": {}
-  "/diamondcapitaloasis/products/all-purpose-cleaner.html": {}
-  "/diamondcapitaloasis/products/branded-cleaning-chemicals.html": {}
-  "/diamondcapitaloasis/products/brooms-and-mops-oman": {}
-  "/diamondcapitaloasis/products/brooms-and-mops-uae.html": {}
-  "/diamondcapitaloasis/products/car-care-products.html": {}
-  "/diamondcapitaloasis/products/detergent-disinfectants-oman": {}
-  "/diamondcapitaloasis/products/detergent-disinfectants-uae.html": {}
-  "/diamondcapitaloasis/products/dish-wash.html": {}
-  "/diamondcapitaloasis/products/disinfectants-oman.html": {}
-  "/diamondcapitaloasis/products/feather-duster.html": {}
-  "/diamondcapitaloasis/products/floor-glass-wiper.html": {}
-  "/diamondcapitaloasis/products/garbage-bags.html": {}
-  "/diamondcapitaloasis/products/garbage-bins-oman.html": {}
-  "/diamondcapitaloasis/products/garbage-bins-uae": {}
-  "/diamondcapitaloasis/products/garbage-bins.html": {}
-  "/diamondcapitaloasis/products/glass-clothes.html": {}
-  "/diamondcapitaloasis/products/hand-sanitizer-dispenser.html": {}
-  "/diamondcapitaloasis/products/hand-sanitizer-oman.html": {}
-  "/diamondcapitaloasis/products/hand-sanitizer.html": {}
-  "/diamondcapitaloasis/products/hand-soap.html": {}
-  "/diamondcapitaloasis/products/hygiene-links-uv-protected-cable-ties.html": {}
-  "/diamondcapitaloasis/products/insect-killer.html": {}
-  "/diamondcapitaloasis/products/laundry-bags.html": {}
-  "/diamondcapitaloasis/products/mop-buckets-trolley-oman": {}
-  "/diamondcapitaloasis/products/mop-buckets-trolley-uae": {}
-  "/diamondcapitaloasis/products/mops-and-clips-oman.html": {}
-  "/diamondcapitaloasis/products/multi-purpose-detergents-uae": {}
-  "/diamondcapitaloasis/products/other-products.html": {}
-  "/diamondcapitaloasis/products/soap-dispensers-oman.html": {}
-  "/diamondcapitaloasis/products/soap-dispensers-uae": {}
-  "/diamondcapitaloasis/products/steel-bins.html": {}
-  "/diamondcapitaloasis/products/tissue-dispensers-uae": {}
-  "/diamondcapitaloasis/products/tissue-dispensers.html": {}
-  "/diamondcapitaloasis/products/tissue-products.html": {}
-  "/diamondcapitaloasis/products/trolleys.html": {}
-  "/diamondcapitaloasis/products/washroom-products-oman.html": {}
-  "/diamondcapitaloasis/products/washroom-products.html": {}
-  "/diamondcapitaloasis/products/waste-bin-1.html": {}
-  "/diamondcapitaloasis/products/window-washers.html": {}
-  "/diamondcapitaloasis/safety-helmet-details.html": {}
-  "/diamondcapitaloasis/safety-jacket-details.html": {}
-  "/diamondcapitaloasis/safety-shoes-details.html": {}
-  "/diamondcapitaloasis/single-bucket-trolley-partition-action-pro-30l-red-details.html": {}
-  "/diamondcapitaloasis/swimming-pool-cleaning-chemicals-details.html": {}
-  "/diamondcapitaloasis/toilet-roll-details.html": {}
+  "/dish-wash-liquidregular-details.html": {}
+  "/double-bucket-trolley-nick-50-l-details.html": {}
   "/faq": {}
   "/faq.html": {}
+  "/feminine-sanitary-bins-details.html": {}
+  "/furniture-polish-details.html": {}
+  "/furniture-polish-uae-details.html": {}
+  "/hygiene-links-uv-protected-cable-ties-details.html": {}
   "/index.html": {}
   "/media/[key]": { "key": string; }
   "/product/[slug]": { "slug": string; }
+  "/products/air-fresheners-oman.html": {}
+  "/products/all-purpose-cleaner.html": {}
+  "/products/branded-cleaning-chemicals.html": {}
+  "/products/brooms-and-mops-oman": {}
+  "/products/brooms-and-mops-uae.html": {}
+  "/products/car-care-products.html": {}
+  "/products/detergent-disinfectants-oman": {}
+  "/products/detergent-disinfectants-uae.html": {}
+  "/products/dish-wash.html": {}
+  "/products/disinfectants-oman.html": {}
+  "/products/feather-duster.html": {}
+  "/products/floor-glass-wiper.html": {}
+  "/products/garbage-bags.html": {}
+  "/products/garbage-bins-oman.html": {}
+  "/products/garbage-bins-uae": {}
+  "/products/garbage-bins.html": {}
+  "/products/glass-clothes.html": {}
+  "/products/hand-sanitizer-dispenser.html": {}
+  "/products/hand-sanitizer-oman.html": {}
+  "/products/hand-sanitizer.html": {}
+  "/products/hand-soap.html": {}
+  "/products/hygiene-links-uv-protected-cable-ties.html": {}
+  "/products/insect-killer.html": {}
+  "/products/laundry-bags.html": {}
+  "/products/mop-buckets-trolley-oman": {}
+  "/products/mop-buckets-trolley-uae": {}
+  "/products/mops-and-clips-oman.html": {}
+  "/products/multi-purpose-detergents-uae": {}
+  "/products/other-products.html": {}
+  "/products/soap-dispensers-oman.html": {}
+  "/products/soap-dispensers-uae": {}
+  "/products/steel-bins.html": {}
+  "/products/tissue-dispensers-uae": {}
+  "/products/tissue-dispensers.html": {}
+  "/products/tissue-products.html": {}
+  "/products/trolleys.html": {}
+  "/products/washroom-products-oman.html": {}
+  "/products/washroom-products.html": {}
+  "/products/waste-bin-1.html": {}
+  "/products/window-washers.html": {}
+  "/safety-helmet-details.html": {}
+  "/safety-jacket-details.html": {}
+  "/safety-shoes-details.html": {}
+  "/single-bucket-trolley-partition-action-pro-30l-red-details.html": {}
+  "/swimming-pool-cleaning-chemicals-details.html": {}
+  "/toilet-roll-details.html": {}
   "/vision-mission.html": {}
 }
 

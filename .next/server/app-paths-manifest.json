@@ -26,6 +26,6 @@
   "/category/[slug]/page": "app/category/[slug]/page.js",
   "/index.html/page": "app/index.html/page.js",
   "/vision-mission.html/page": "app/vision-mission.html/page.js",
-  "/page": "app/page.js",
-  "/product/[slug]/page": "app/product/[slug]/page.js"
+  "/product/[slug]/page": "app/product/[slug]/page.js",
+  "/page": "app/page.js"
 }

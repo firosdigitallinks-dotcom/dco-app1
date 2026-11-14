@@ -628,7 +628,6 @@ export default async function Home() {
           <div className="shell">
             <div className="dco-final-cta-card">
               <div className="dco-final-cta-content">
-                <p className="eyebrow">Final CTA</p>
                 <h2>Get a Quote for Your Business</h2>
                 <p>
                   Looking for reliable cleaning equipment suppliers in Oman?

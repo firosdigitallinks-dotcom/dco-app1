@@ -35,13 +35,27 @@ process.on("unhandledRejection", (err) => {
 log("app.js booting...");
 
 // Automatically load production environment variables if present
-if (typeof process.loadEnvFile === "function") {
-  for (const file of [".env.production", ".env"]) {
-    if (fs.existsSync(file)) {
-      try {
+for (const file of [".env.production", ".env"]) {
+  if (fs.existsSync(file)) {
+    try {
+      if (typeof process.loadEnvFile === "function") {
         process.loadEnvFile(file);
-      } catch {}
-    }
+      } else {
+        const content = fs.readFileSync(file, "utf8");
+        for (const line of content.split("\n")) {
+          const trimmed = line.trim();
+          if (!trimmed || trimmed.startsWith("#")) continue;
+          const idx = trimmed.indexOf("=");
+          if (idx > 0) {
+            const key = trimmed.slice(0, idx).trim();
+            const val = trimmed.slice(idx + 1).trim();
+            if (!process.env[key]) {
+              process.env[key] = val;
+            }
+          }
+        }
+      }
+    } catch {}
   }
 }
 

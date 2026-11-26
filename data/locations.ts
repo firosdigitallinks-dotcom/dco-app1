@@ -1,0 +1,571 @@
+export interface LocationPageData {
+  num: number;
+  name: string;
+  slug: string;
+  metaDescription: string;
+  h1: string;
+  subhead: string;
+  sectionTitle: string;
+  intro: string;
+  whoWeSupply: string[];
+  faqQuestion: string;
+  faqAnswer: string;
+  exploreText: string;
+  nearby: Array<{ name: string; slug: string }>;
+}
+
+export const locationPages: LocationPageData[] = [
+  {
+    "num": 1,
+    "name": "Ruwi",
+    "slug": "ruwi",
+    "metaDescription": "Cleaning equipment, tissue, dispensers and bags for Ruwi offices, hotels and shops. Diamond Capital Oasis delivers. Request a quote.",
+    "h1": "Cleaning Equipment Suppliers in Ruwi, Oman",
+    "subhead": "Supplies for offices, shops and hotels in Muscat's busiest commercial district.",
+    "sectionTitle": "Reliable Cleaning Supplies for Businesses in Ruwi",
+    "intro": "Ruwi is one of Muscat's busiest commercial areas, with offices, hotels, clinics and retail businesses requiring regular cleaning supplies. Diamond Capital Oasis provides businesses with reliable supply options, ensuring easy availability of necessary cleaning materials and equipment for creating and maintaining hygienic work environments. Orders can be placed by phone or WhatsApp, with delivery to your premises.",
+    "whoWeSupply": [
+      "Office towers and business centres",
+      "Hotels and serviced apartments",
+      "Clinics and retail shops"
+    ],
+    "faqQuestion": "Can you deliver small orders to Ruwi offices?",
+    "faqAnswer": "Yes. Businesses in Ruwi can request supplies based on their requirements and arrange recurring weekly or monthly orders, subject to the applicable minimum order requirements.",
+    "exploreText": "Find the right cleaning supplies for your business requirements.",
+    "nearby": [
+      {
+        "name": "Ghala",
+        "slug": "ghala"
+      },
+      {
+        "name": "Misfa",
+        "slug": "misfa"
+      },
+      {
+        "name": "Al Amarat",
+        "slug": "al-amarat"
+      }
+    ]
+  },
+  {
+    "num": 2,
+    "name": "Ghala",
+    "slug": "ghala",
+    "metaDescription": "Bulk cleaning chemicals, mop sets, bins and bags for factories and warehouses in Ghala, Oman. Get a quote from Diamond Capital Oasis.",
+    "h1": "Cleaning Equipment Suppliers in Ghala, Oman",
+    "subhead": "Heavy-duty cleaning supplies for factories, workshops and warehouses.",
+    "sectionTitle": "Cleaning Supplies for Industrial and Commercial Sites in Ghala",
+    "intro": "Reliable cleaning products are essential for Ghala's industrial and commercial operations to ensure a safe and organized workplace. Diamond Capital Oasis provides cleaning supplies to factories, workshops and storage units within the area, suitable for the work done and the demands of everyday work. Businesses may ask for bulk deals and establish supply arrangements depending on their site needs.",
+    "whoWeSupply": [
+      "Factories and workshops",
+      "Warehouses and logistics yards",
+      "Contractors' site offices"
+    ],
+    "faqQuestion": "Do you supply bulk drums for industrial sites?",
+    "faqAnswer": "Yes. Bulk packs of industrial cleaning chemicals can be provided for regular site maintenance to minimize reordering. Available pack sizes can be confirmed with our team.",
+    "exploreText": "Find suitable cleaning solutions for your workplace.",
+    "nearby": [
+      {
+        "name": "Misfa",
+        "slug": "misfa"
+      },
+      {
+        "name": "Al Amarat",
+        "slug": "al-amarat"
+      },
+      {
+        "name": "Mabela",
+        "slug": "mabela"
+      }
+    ]
+  },
+  {
+    "num": 3,
+    "name": "Misfa",
+    "slug": "misfa",
+    "metaDescription": "Cleaning supplies for Misfa shops, schools and apartment blocks. Diamond Capital Oasis supplies bags, soap and tissue. Get a quote.",
+    "h1": "Cleaning Equipment Suppliers in Misfa, Oman",
+    "subhead": "Daily essentials for neighbourhood shops, schools and apartment blocks.",
+    "sectionTitle": "Everyday Cleaning Supplies for Businesses in Misfa",
+    "intro": "From neighbourhood stores to residential buildings, maintaining clean and hygienic spaces requires a consistent supply of everyday cleaning essentials. Diamond Capital Oasis supports businesses and institutions across Misfa with convenient supply options for their routine requirements. Customers can contact our team to enquire about availability and arrange repeat orders.",
+    "whoWeSupply": [
+      "Neighbourhood shops and supermarkets",
+      "Schools and nurseries",
+      "Apartment buildings and clinics"
+    ],
+    "faqQuestion": "Is there a minimum order for Misfa?",
+    "faqAnswer": "Small orders are welcome. Call Diamond Capital Oasis and we can discuss your needs and get you the minimum order quantity and delivery details for your location.",
+    "exploreText": "Browse our range of cleaning essentials for everyday business needs.",
+    "nearby": [
+      {
+        "name": "Al Amarat",
+        "slug": "al-amarat"
+      },
+      {
+        "name": "Mabela",
+        "slug": "mabela"
+      },
+      {
+        "name": "Seeb",
+        "slug": "seeb"
+      }
+    ]
+  },
+  {
+    "num": 4,
+    "name": "Al Amarat",
+    "slug": "al-amarat",
+    "metaDescription": "Brooms, mops, tissue, soap and bins for Al Amarat offices, schools and compounds. Diamond Capital Oasis supplies. Request a quote.",
+    "h1": "Cleaning Equipment Suppliers in Al Amarat, Oman",
+    "subhead": "Steady housekeeping supplies for public offices, schools and large compounds.",
+    "sectionTitle": "Reliable Housekeeping Supplies for Al Amarat",
+    "intro": "There are public institutions, education centers, religious buildings and residential communities in Al Amarat that need regular housekeeping services. The units provide these facilities with the necessary cleaning equipment to keep their premises clean and hygienic. Regular orders can be placed with the business or institution so that their cleaning services are efficient and effective.",
+    "whoWeSupply": [
+      "Government and public offices",
+      "Schools and training centres",
+      "Mosques, villas and residential compounds"
+    ],
+    "faqQuestion": "Can you supply on a regular schedule?",
+    "faqAnswer": "Yes. Businesses and institutions may make monthly or quarterly supply plans depending on the requirements of their housekeeping, so that they can maintain a steady supply of necessary cleaning materials.",
+    "exploreText": "Find the right cleaning supplies for your housekeeping needs.",
+    "nearby": [
+      {
+        "name": "Mabela",
+        "slug": "mabela"
+      },
+      {
+        "name": "Seeb",
+        "slug": "seeb"
+      },
+      {
+        "name": "Ruwi",
+        "slug": "ruwi"
+      }
+    ]
+  },
+  {
+    "num": 5,
+    "name": "Mabela",
+    "slug": "mabela",
+    "metaDescription": "Floor wipers, mop buckets and garbage bags for Mabela traders and warehouses. Diamond Capital Oasis supplies. Get a quote.",
+    "h1": "Cleaning Equipment Suppliers in Mabela, Oman",
+    "subhead": "Supplies for traders, wholesalers and warehouses that start early.",
+    "sectionTitle": "Cleaning Essentials for Mabela's Busy Trade Sector",
+    "intro": "Efficient housekeeping is essential for the efficient operation of Mabela's wholesale markets, storage facilities and food businesses. Diamond Capital Oasis also provides useful cleaning materials to local traders and commercial establishments that require to maintain clean floors, manage waste and keep work areas hygienic. Convenient ordering arrangements are available for businesses to obtain their everyday housekeeping needs.",
+    "whoWeSupply": [
+      "Wholesalers and market traders",
+      "Warehouses and cold stores",
+      "Food-trade businesses"
+    ],
+    "faqQuestion": "What suits wet floors in food areas?",
+    "faqAnswer": "Use floor wipers and double mop buckets to control wet areas in food preparation and storage areas. Both can be obtained by businesses for their typical floor-cleaning needs.",
+    "exploreText": "Discover cleaning essentials for your commercial operations.",
+    "nearby": [
+      {
+        "name": "Seeb",
+        "slug": "seeb"
+      },
+      {
+        "name": "Misfa",
+        "slug": "misfa"
+      },
+      {
+        "name": "Ghala",
+        "slug": "ghala"
+      }
+    ]
+  },
+  {
+    "num": 6,
+    "name": "Seeb",
+    "slug": "seeb",
+    "metaDescription": "Maxi rolls, dispensers, soap and air fresheners for Seeb hotels, malls and restaurants. Diamond Capital Oasis supplies. Request a quote.",
+    "h1": "Cleaning Equipment Suppliers in Seeb, Oman",
+    "subhead": "Tissue, dispensers and washroom supplies for high-footfall sites.",
+    "sectionTitle": "Washroom Supplies for Seeb's Commercial Establishments",
+    "intro": "Clean and well-stocked washrooms are a daily concern for hotels, shopping centres, restaurants and airport-related businesses throughout Seeb. Diamond Capital Oasis assists local businesses with necessary washroom and hygiene products to assist them in their housekeeping tasks. Businesses can ask about supply options that are appropriate for their business, from hospitality providers to commercial establishments that have a lot of business.",
+    "whoWeSupply": [
+      "Hotels and restaurants",
+      "Malls and shopping centres",
+      "Airport-area service companies"
+    ],
+    "faqQuestion": "Do you supply tissue in bulk cartons?",
+    "faqAnswer": "Yes. Toilet rolls and maxi rolls can be bought in bulk cartons, ideal for use in hotels, restaurants and other properties where the washroom is used regularly.",
+    "exploreText": "Explore our range of cleaning and washroom essentials.",
+    "nearby": [
+      {
+        "name": "Mabela",
+        "slug": "mabela"
+      },
+      {
+        "name": "Misfa",
+        "slug": "misfa"
+      },
+      {
+        "name": "Ghala",
+        "slug": "ghala"
+      }
+    ]
+  },
+  {
+    "num": 7,
+    "name": "Barka",
+    "slug": "barka",
+    "metaDescription": "Garbage bags, waste bins, disinfectants and scrubbing tools for Barka farms and food businesses. Request a quote.",
+    "h1": "Cleaning Equipment Suppliers in Barka, Oman",
+    "subhead": "Tough cleaning and waste supplies for farms, food units and fishing businesses.",
+    "sectionTitle": "Heavy-Duty Cleaning Supplies for Barka Businesses",
+    "intro": "Farms, food processing facilities and fishing operations in Barka deal with demanding cleaning conditions and different types of waste. Diamond Capital Oasis supports these businesses with dependable cleaning and waste management supplies to keep their workspaces hygienic and organised. Local establishments can enquire about suitable supplies for their daily cleaning requirements.",
+    "whoWeSupply": [
+      "Farms and packing houses",
+      "Food-processing units",
+      "Fishing and seafood businesses"
+    ],
+    "faqQuestion": "Do you have heavy-duty bags for wet waste?",
+    "faqAnswer": "Yes. Use heavy-duty garbage bags to dispose of wet and heavier waste. Our team will advise businesses on the right size and strength for their bags, depending on their needs for waste disposal.",
+    "exploreText": "Find cleaning and waste management supplies for your business.",
+    "nearby": [
+      {
+        "name": "Musannah",
+        "slug": "musannah"
+      },
+      {
+        "name": "Rustaq",
+        "slug": "rustaq"
+      },
+      {
+        "name": "Saham",
+        "slug": "saham"
+      }
+    ]
+  },
+  {
+    "num": 8,
+    "name": "Musannah",
+    "slug": "musannah",
+    "metaDescription": "Starter cleaning sets and regular refills for Musannah shops, schools and clinics. Diamond Capital Oasis supplies. Get a quote.",
+    "h1": "Cleaning Equipment Suppliers in Musannah, Oman",
+    "subhead": "Everything a new shop, school or clinic needs to start cleaning, in one order.",
+    "sectionTitle": "Complete Cleaning Supply Solutions for New Establishments",
+    "intro": "With the development of Musannah, new businesses and establishments must have the appropriate cleaning supplies from the start. Diamond Capital Oasis assists local businesses with their first housekeeping materials and regular restocking. Businesses can inquire about suitable delivery options for their cleaning requirements, whether at their new stores or educational and healthcare facilities.",
+    "whoWeSupply": [
+      "New shops and supermarkets",
+      "Schools and clinics",
+      "Small factories and workshops"
+    ],
+    "faqQuestion": "Can you equip a new shop in one order?",
+    "faqAnswer": "Yes. Let our team know about your establishment's size and cleaning needs. We will be able to assist you in determining your requirements and give you a single quote for your first order.",
+    "exploreText": "Get the cleaning essentials your new establishment needs.",
+    "nearby": [
+      {
+        "name": "Barka",
+        "slug": "barka"
+      },
+      {
+        "name": "Rustaq",
+        "slug": "rustaq"
+      },
+      {
+        "name": "Saham",
+        "slug": "saham"
+      }
+    ]
+  },
+  {
+    "num": 9,
+    "name": "Rustaq",
+    "slug": "rustaq",
+    "metaDescription": "Air fresheners, tissue and soap dispensers for Rustaq guest houses and public places. Diamond Capital Oasis. Request a quote.",
+    "h1": "Cleaning Equipment Suppliers in Rustaq, Oman",
+    "subhead": "Fresh, clean facilities for guest houses, visitor sites and public offices.",
+    "sectionTitle": "Housekeeping Essentials for Rustaq's Hospitality and Public Spaces",
+    "intro": "Rustaq requires maintenance of public spaces, and accommodation facilities as well as visitor destinations and attractions, including heritage facilities. Diamond Capital Oasis helps local businesses by providing them with cleaning and hygiene items, which helps keep their environment welcoming. A variety of supply arrangements are available for schools, public buildings and other regular guest houses to obtain their basic housekeeping services.",
+    "whoWeSupply": [
+      "Guest houses and small hotels",
+      "Heritage and tourist sites",
+      "Schools and government offices"
+    ],
+    "faqQuestion": "Do you supply air fresheners for washrooms?",
+    "faqAnswer": "Yes. Air fresheners, such as aerosols and automatic dispensers (with refills), help provide pleasant air in washrooms and other areas of frequent use.",
+    "exploreText": "Discover cleaning and hygiene supplies for your establishment.",
+    "nearby": [
+      {
+        "name": "Musannah",
+        "slug": "musannah"
+      },
+      {
+        "name": "Barka",
+        "slug": "barka"
+      },
+      {
+        "name": "Saham",
+        "slug": "saham"
+      }
+    ]
+  },
+  {
+    "num": 10,
+    "name": "Saham",
+    "slug": "saham",
+    "metaDescription": "Cleaning chemicals, garbage bags and tissue for Saham traders, farms and workshops. Diamond Capital Oasis delivers. Get a quote.",
+    "h1": "Cleaning Equipment Suppliers in Saham, Oman",
+    "subhead": "Dependable supply for traders, farms and small factories close to Sohar.",
+    "sectionTitle": "Cleaning Supplies for Saham's Commercial and Agricultural Sector",
+    "intro": "Everyday cleaning supplies should be readily available to businesses along the coast and in agricultural areas of Saham. Diamond Capital Oasis is a supplier of cleaning products for local traders, farms and smaller industrial businesses that are used for maintaining the space, ensuring good hygiene in the workplace. Companies can ask for quotes according to their needs and have a delivery to their office.",
+    "whoWeSupply": [
+      "Traders and general stores",
+      "Farms and agricultural suppliers",
+      "Small factories and workshops"
+    ],
+    "faqQuestion": "How soon can an order reach Saham?",
+    "faqAnswer": "Delivery dates are dependent on order size and location. When asking for a quote, give Diamond Capital Oasis your needs and our team will be able to offer you a timeframe for delivery.",
+    "exploreText": "Source your essential cleaning supplies for everyday operations.",
+    "nearby": [
+      {
+        "name": "Sohar",
+        "slug": "sohar"
+      },
+      {
+        "name": "Barka",
+        "slug": "barka"
+      },
+      {
+        "name": "Musannah",
+        "slug": "musannah"
+      }
+    ]
+  },
+  {
+    "num": 11,
+    "name": "Sohar",
+    "slug": "sohar",
+    "metaDescription": "Bulk chemicals, cleaning trolleys and garbage bags for Sohar factories, port firms and hotels. Diamond Capital Oasis. Request a quote.",
+    "h1": "Cleaning Equipment Suppliers in Sohar, Oman",
+    "subhead": "Bulk supply for factories, port companies and large industrial sites.",
+    "sectionTitle": "Industrial Cleaning Supplies for Sohar Businesses",
+    "intro": "Sohar's industrial zones and active port activities bring together large-scale factories, logistics providers and contractors. Diamond Capital Oasis is helping these businesses with cleaning products for industrial workplaces and employee areas. Whether you need bulk supply options for your daily tasks or for the entire site, local businesses can ask about bulk supply options that meet their needs.",
+    "whoWeSupply": [
+      "Factories and industrial units",
+      "Port and logistics companies",
+      "Contractors, camps and hotels"
+    ],
+    "faqQuestion": "Can you quote a contract for a large site?",
+    "faqAnswer": "Yes. Businesses managing large facilities can request quotations for recurring bulk supply based on their consumption, delivery requirements and the number of sites involved.",
+    "exploreText": "Find cleaning supplies suited to industrial and commercial facilities.",
+    "nearby": [
+      {
+        "name": "Saham",
+        "slug": "saham"
+      },
+      {
+        "name": "Barka",
+        "slug": "barka"
+      },
+      {
+        "name": "Musannah",
+        "slug": "musannah"
+      }
+    ]
+  },
+  {
+    "num": 12,
+    "name": "Ibri",
+    "slug": "ibri",
+    "metaDescription": "Disinfectants, sanitizers and biohazard bags for Ibri hospitals, schools and offices. Diamond Capital Oasis. Request a quote.",
+    "h1": "Cleaning Equipment Suppliers in Ibri, Oman",
+    "subhead": "Hygiene and waste supplies for hospitals, schools and public offices.",
+    "sectionTitle": "Hygiene Supplies for Ibri's Institutions and Businesses",
+    "intro": "As a key urban centre in Al Dhahirah, Ibri serves healthcare facilities, educational institutions, government departments and retail establishments. These organisations need dependable cleaning supplies to maintain hygienic surroundings. Diamond Capital Oasis caters to local requirements with essential hygiene and waste management supplies for everyday facility maintenance.",
+    "whoWeSupply": [
+      "Hospitals and clinics",
+      "Schools and colleges",
+      "Government offices and retail businesses"
+    ],
+    "faqQuestion": "Do you supply bags for medical waste?",
+    "faqAnswer": "Yes. Biohazard waste bags are available for healthcare facilities that require dedicated medical waste collection solutions. Contact our team to discuss suitable options for your facility.",
+    "exploreText": "Explore cleaning and hygiene supplies for your establishment.",
+    "nearby": [
+      {
+        "name": "Nizwa",
+        "slug": "nizwa"
+      },
+      {
+        "name": "Samail",
+        "slug": "samail"
+      },
+      {
+        "name": "Ibra",
+        "slug": "ibra"
+      }
+    ]
+  },
+  {
+    "num": 13,
+    "name": "Musandam",
+    "slug": "musandam",
+    "metaDescription": "Tissue, bags and cleaning supplies in bulk for Musandam hotels, boats and fishing businesses. Plan an order today.",
+    "h1": "Cleaning Equipment Suppliers in Musandam, Oman",
+    "subhead": "Bulk cleaning supplies, planned ahead, for Musandam's hotels, boats and fishing businesses.",
+    "sectionTitle": "Planned Cleaning Supply for Musandam's Coastal Businesses",
+    "intro": "Hotels, tourist boat operators and marine businesses across Musandam need to keep essential cleaning supplies readily available. Planning stock ahead is especially important for establishments operating away from major commercial centres. Diamond Capital Oasis supports these businesses with bulk supply options for routine cleaning, hygiene and waste management requirements.",
+    "whoWeSupply": [
+      "Tourist boat operators",
+      "Hotels and guest houses",
+      "Fishing and marine businesses"
+    ],
+    "faqQuestion": "How should I order for Musandam?",
+    "faqAnswer": "We recommend placing bulk orders in advance to help coordinate supply requirements and delivery arrangements. Contact Diamond Capital Oasis to discuss your order and plan the next delivery.",
+    "exploreText": "Browse cleaning essentials for hospitality and marine operations.",
+    "nearby": [
+      {
+        "name": "Sohar",
+        "slug": "sohar"
+      },
+      {
+        "name": "Saham",
+        "slug": "saham"
+      },
+      {
+        "name": "Ibri",
+        "slug": "ibri"
+      }
+    ]
+  },
+  {
+    "num": 14,
+    "name": "Nizwa",
+    "slug": "nizwa",
+    "metaDescription": "Tissue, dispensers, air fresheners and mops for Nizwa hotels, souq shops and public buildings. Diamond Capital Oasis. Request a quote.",
+    "h1": "Cleaning Equipment Suppliers in Nizwa, Oman",
+    "subhead": "Supplies for hotels, souq businesses and public buildings in a busy heritage city.",
+    "sectionTitle": "Cleaning Solutions for Nizwa's Hospitality and Commercial Sector",
+    "intro": "Nizwa combines a rich heritage with a busy commercial environment, welcoming visitors to its traditional souq, hotels and cultural attractions. Its educational and healthcare institutions also require dependable housekeeping supplies. Diamond Capital Oasis serves local establishments with essential cleaning and hygiene supplies to support well-maintained guest spaces, workplaces and public facilities.",
+    "whoWeSupply": [
+      "Hotels and guest houses",
+      "Souq shops and restaurants",
+      "Universities, hospitals and schools"
+    ],
+    "faqQuestion": "Can hotels get dispensers and refills together?",
+    "faqAnswer": "Yes. Hotels can enquire about ordering dispensers along with their matching refills, making it easier to manage washroom hygiene and maintain a consistent supply.",
+    "exploreText": "Find suitable cleaning supplies for your hospitality and commercial needs.",
+    "nearby": [
+      {
+        "name": "Samail",
+        "slug": "samail"
+      },
+      {
+        "name": "Ibri",
+        "slug": "ibri"
+      },
+      {
+        "name": "Ibra",
+        "slug": "ibra"
+      }
+    ]
+  },
+  {
+    "num": 15,
+    "name": "Samail",
+    "slug": "samail",
+    "metaDescription": "All-purpose cleaners, brushes and bins for Samail workshops, schools and industrial units. Diamond Capital Oasis. Get a quote.",
+    "h1": "Cleaning Equipment Suppliers in Samail, Oman",
+    "subhead": "Day-to-day cleaning supplies for workshops, schools and industrial units.",
+    "sectionTitle": "Everyday Cleaning Essentials for Samail Establishments",
+    "intro": "Samail's industrial facilities, workshops and residential communities require regular cleaning to maintain organised and hygienic surroundings. Diamond Capital Oasis supports local businesses and institutions with practical housekeeping supplies for everyday maintenance. From industrial workplaces to educational establishments, customers can enquire about convenient supply arrangements for their routine cleaning needs.",
+    "whoWeSupply": [
+      "Industrial estate units",
+      "Workshops and garages",
+      "Schools and residential buildings"
+    ],
+    "faqQuestion": "Do you supply garages and car wash businesses?",
+    "faqAnswer": "Yes. Garages and car wash operators can enquire about suitable cleaning and car care supplies, including available bulk packs, to support their daily operations.",
+    "exploreText": "Discover cleaning essentials for your workplace and facility.",
+    "nearby": [
+      {
+        "name": "Nizwa",
+        "slug": "nizwa"
+      },
+      {
+        "name": "Ibra",
+        "slug": "ibra"
+      },
+      {
+        "name": "Ruwi",
+        "slug": "ruwi"
+      }
+    ]
+  },
+  {
+    "num": 16,
+    "name": "Ibra",
+    "slug": "ibra",
+    "metaDescription": "Hand soap, sanitizer and toilet rolls for Ibra schools, hospitals and guest houses. Diamond Capital Oasis. Request a quote.",
+    "h1": "Cleaning Equipment Suppliers in Ibra, Oman",
+    "subhead": "Washroom and hygiene supplies for schools, hospitals and guest houses.",
+    "sectionTitle": "Hygiene Essentials for Ibra's Institutions and Businesses",
+    "intro": "Schools, healthcare centres, guest houses and retail establishments across Ibra need dependable hygiene supplies to keep their facilities clean and welcoming. Diamond Capital Oasis caters to these everyday requirements with essential cleaning and washroom supplies. Local organisations can arrange orders based on their usage and maintain a steady supply for their housekeeping routines.",
+    "whoWeSupply": [
+      "Schools and colleges",
+      "Hospitals and clinics",
+      "Guest houses and shops"
+    ],
+    "faqQuestion": "Can schools order before term starts?",
+    "faqAnswer": "Yes. Educational institutions can plan larger orders ahead of a new academic term to prepare their facilities with the necessary cleaning and hygiene supplies.",
+    "exploreText": "Get the cleaning and washroom essentials your facility needs.",
+    "nearby": [
+      {
+        "name": "Samail",
+        "slug": "samail"
+      },
+      {
+        "name": "Sur",
+        "slug": "sur"
+      },
+      {
+        "name": "Nizwa",
+        "slug": "nizwa"
+      }
+    ]
+  },
+  {
+    "num": 17,
+    "name": "Sur",
+    "slug": "sur",
+    "metaDescription": "Stainless steel ties, polish and heavy-duty buckets for Sur port, industry and hotels. Diamond Capital Oasis. Request a quote.",
+    "h1": "Cleaning Equipment Suppliers in Sur, Oman",
+    "subhead": "Supplies built for salt air and heavy use in a port and industrial city.",
+    "sectionTitle": "Reliable Cleaning Supplies for Sur's Coastal Industries",
+    "intro": "Sur's coastal location, port activities and industrial operations create specific housekeeping demands for local businesses. Marine facilities, hotels and commercial establishments need durable supplies to maintain clean and functional spaces. Diamond Capital Oasis supports these sectors with cleaning essentials suited to regular use across industrial, marine and hospitality environments.",
+    "whoWeSupply": [
+      "Industrial plants and contractors",
+      "Port and marine service companies",
+      "Hotels and fishing businesses"
+    ],
+    "faqQuestion": "Do you supply stainless steel items for marine use?",
+    "faqAnswer": "Yes. Stainless steel cable ties and stainless-steel polish are available for businesses looking for suitable maintenance supplies for their marine and industrial requirements.",
+    "exploreText": "Explore cleaning and maintenance supplies for your business.",
+    "nearby": [
+      {
+        "name": "Ibra",
+        "slug": "ibra"
+      },
+      {
+        "name": "Samail",
+        "slug": "samail"
+      },
+      {
+        "name": "Ruwi",
+        "slug": "ruwi"
+      }
+    ]
+  }
+];
+
+export function getLocationBySlug(slug: string): LocationPageData | undefined {
+  const normalized = slug.toLowerCase().replace(/^\/+|\/+$/g, "");
+  return locationPages.find((l) => l.slug.toLowerCase() === normalized);
+}
+
+export function getAllLocationSlugs(): string[] {
+  return locationPages.map((l) => l.slug);
+}

@@ -189,15 +189,35 @@ const howWeWork = [
 const locations = [
   {
     region: "Muscat",
-    places: "Ruwi, Ghala, Misfa, Al Amarat, Mabela and Seeb.",
+    items: [
+      { name: "Ruwi", slug: "ruwi" },
+      { name: "Ghala", slug: "ghala" },
+      { name: "Misfa", slug: "misfa" },
+      { name: "Al Amarat", slug: "al-amarat" },
+      { name: "Mabela", slug: "mabela" },
+      { name: "Seeb", slug: "seeb" },
+    ],
   },
   {
     region: "Al Batinah",
-    places: "Barka, Musannah, Rustaq, Saham and Sohar.",
+    items: [
+      { name: "Barka", slug: "barka" },
+      { name: "Musannah", slug: "musannah" },
+      { name: "Rustaq", slug: "rustaq" },
+      { name: "Saham", slug: "saham" },
+      { name: "Sohar", slug: "sohar" },
+    ],
   },
   {
     region: "Interior and North",
-    places: "Ibri, Musandam, Nizwa, Samail, Ibra and Sur.",
+    items: [
+      { name: "Ibri", slug: "ibri" },
+      { name: "Musandam", slug: "musandam" },
+      { name: "Nizwa", slug: "nizwa" },
+      { name: "Samail", slug: "samail" },
+      { name: "Ibra", slug: "ibra" },
+      { name: "Sur", slug: "sur" },
+    ],
   },
 ];
 
@@ -588,7 +608,28 @@ export default async function Home() {
                     </span>
                     <h3>{loc.region}</h3>
                   </div>
-                  <p>{loc.places}</p>
+                  <p>
+                    {loc.items.map((item, idx) => (
+                      <span key={item.slug}>
+                        <a
+                          href={withBasePath(`/${item.slug}/`)}
+                          style={{
+                            color: "var(--blue-600)",
+                            textDecoration: "underline",
+                            textUnderlineOffset: "3px",
+                            fontWeight: 500,
+                          }}
+                        >
+                          {item.name}
+                        </a>
+                        {idx < loc.items.length - 1
+                          ? idx === loc.items.length - 2
+                            ? " and "
+                            : ", "
+                          : "."}
+                      </span>
+                    ))}
+                  </p>
                 </div>
               ))}
             </div>
